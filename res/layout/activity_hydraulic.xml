@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <!-- 顶部准备 -->
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#10a9c4"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_end_material">
+        <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomrightiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/readyTv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hydraulicLevel"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+	
+        <!-- 选择功能 -->
+    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:layout_marginTop="0dp"
+	        android:clickable="true"
+	        android:id="@+id/deviceLL">
+	        <TextView
+	            android:id="@+id/deviceTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/chooseFunction"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:textSize="12sp"
+		       	android:layout_marginStart="20dp"
+		       	android:layout_marginLeft="20dp"/>
+	 </LinearLayout>
+	 <!-- 设置 -->
+    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" 
+	        android:background="@xml/paddingbottomiszero"
+	        android:layout_marginTop="0dp"
+	        android:clickable="true"
+	        android:id="@+id/settingLl"
+	        android:gravity="center">
+	        <TextView
+	            android:id="@+id/settingTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/setting"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:textSize="18sp"/>
+
+	</LinearLayout>
+	
+    <!-- 测试 -->
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" 
+	        android:background="@xml/paddingbottomiszero"
+	        android:layout_marginTop="0dp"
+	        android:clickable="true"
+	        android:id="@+id/testLl"
+	        android:gravity="center">
+	        <TextView
+	            android:id="@+id/testTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:textSize="18sp"/>
+	 </LinearLayout>
+        <!-- 测量单元查询 -->
+     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" 
+	        android:background="@xml/paddingbottomiszero"
+	        android:layout_marginTop="0dp"
+	        android:clickable="true"
+	        android:id="@+id/measureUnitQueryLl"
+	        android:gravity="center">
+	        <TextView
+	            android:id="@+id/measureUnitQueryTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/measureUnitQuery"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:textSize="18sp"/>
+	 </LinearLayout>
+    <!-- 监测网 -->
+     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal" 
+	        android:background="@xml/padding"
+	        android:layout_marginTop="0dp"
+	        android:clickable="true"
+	        android:id="@+id/monitoringNetworkLl"
+	        android:gravity="center">
+	        <TextView
+	            android:id="@+id/monitoringNetworkTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/monitoringNetwork"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:textSize="18sp"/>
+	 </LinearLayout>
+</LinearLayout>

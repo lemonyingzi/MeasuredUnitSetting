@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 顶部“已绑定” -->
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#10a9c4"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_end_material" >
+        <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomleftiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/binded"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <LinearLayout
+           android:layout_width="match_parent"
+	       android:layout_height="100dp"
+	       android:orientation="horizontal">
+		  <ListView
+		    android:id="@+id/ble_list"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		  </ListView>
+	</LinearLayout>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="bottom"
+	    android:gravity="bottom">
+	    <LinearLayout
+	    android:id="@+id/bindNewDeviceLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="@xml/padding"
+	    android:layout_gravity="bottom"
+	    android:gravity="bottom">
+		 <TextView
+	        android:id="@+id/bindNewDeviceBtn"
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:text="@string/bindNewDevice"
+	        android:gravity="center">
+	    </TextView>
+	</LinearLayout>
+	</RelativeLayout>
+
+
+</LinearLayout>

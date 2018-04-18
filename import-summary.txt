@@ -1,0 +1,309 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From DeviceScanActivity:
+* .gradle\
+* .gradle\1.8\
+* .gradle\1.8\taskArtifacts\
+* .gradle\1.8\taskArtifacts\cache.properties
+* .gradle\1.8\taskArtifacts\cache.properties.lock
+* .gradle\1.8\taskArtifacts\fileHashes.bin
+* .gradle\1.8\taskArtifacts\fileSnapshots.bin
+* .gradle\1.8\taskArtifacts\outputFileStates.bin
+* .gradle\1.8\taskArtifacts\taskArtifacts.bin
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\gradle.xml
+* .idea\libraries\
+* .idea\libraries\support_v13_18_0_0.xml
+* .idea\libraries\support_v4_18_0_0.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* 111-备份.pro
+* BluetoothLeGatt.iml
+* BluetoothLeGattSample\
+* BluetoothLeGattSample\BluetoothLeGattSample.iml
+* BluetoothLeGattSample\build.gradle
+* BluetoothLeGattSample\build\
+* BluetoothLeGattSample\build\apk\
+* BluetoothLeGattSample\build\apk\BLE_DEMO.apk
+* BluetoothLeGattSample\build\classes\
+* BluetoothLeGattSample\build\classes\debug\
+* BluetoothLeGattSample\build\classes\debug\com\
+* BluetoothLeGattSample\build\classes\debug\com\example\
+* BluetoothLeGattSample\build\classes\debug\com\example\android\
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\BluetoothLeService$1.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\BluetoothLeService$LocalBinder.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\BluetoothLeService.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\BuildConfig.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceControlActivity$1.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceControlActivity$2.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceControlActivity$3$1.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceControlActivity$3$2.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceControlActivity$3.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceControlActivity$4.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceControlActivity.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceScanActivity$1.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceScanActivity$2$1.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceScanActivity$2.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceScanActivity$LeDeviceListAdapter.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceScanActivity$ViewHolder.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\DeviceScanActivity.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R$attr.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R$dimen.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R$drawable.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R$id.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R$layout.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R$menu.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R$string.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R$style.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\R.class
+* BluetoothLeGattSample\build\classes\debug\com\example\android\bluetoothlegatt\SampleGattAttributes.class
+* BluetoothLeGattSample\build\incremental\
+* BluetoothLeGattSample\build\incremental\aidl\
+* BluetoothLeGattSample\build\incremental\aidl\debug\
+* BluetoothLeGattSample\build\incremental\aidl\debug\dependency.store
+* BluetoothLeGattSample\build\incremental\aidl\debug\inputs.data
+* BluetoothLeGattSample\build\incremental\aidl\debug\outputs.data
+* BluetoothLeGattSample\build\incremental\dex\
+* BluetoothLeGattSample\build\incremental\dex\debug\
+* BluetoothLeGattSample\build\incremental\dex\debug\inputs.data
+* BluetoothLeGattSample\build\incremental\dex\debug\outputs.data
+* BluetoothLeGattSample\build\incremental\mergeAssets\
+* BluetoothLeGattSample\build\incremental\mergeAssets\debug\
+* BluetoothLeGattSample\build\incremental\mergeAssets\debug\inputs.data
+* BluetoothLeGattSample\build\incremental\mergeAssets\debug\merger.xml
+* BluetoothLeGattSample\build\incremental\mergeAssets\debug\outputs.data
+* BluetoothLeGattSample\build\incremental\mergeResources\
+* BluetoothLeGattSample\build\incremental\mergeResources\debug\
+* BluetoothLeGattSample\build\incremental\mergeResources\debug\inputs.data
+* BluetoothLeGattSample\build\incremental\mergeResources\debug\merger.xml
+* BluetoothLeGattSample\build\incremental\mergeResources\debug\outputs.data
+* BluetoothLeGattSample\build\libs\
+* BluetoothLeGattSample\build\libs\BluetoothLeGattSample-debug.ap_
+* BluetoothLeGattSample\build\libs\BluetoothLeGattSample-debug.dex
+* BluetoothLeGattSample\build\manifests\
+* BluetoothLeGattSample\build\manifests\debug\
+* BluetoothLeGattSample\build\manifests\debug\AndroidManifest.xml
+* BluetoothLeGattSample\build\res\
+* BluetoothLeGattSample\build\res\all\
+* BluetoothLeGattSample\build\res\all\debug\
+* BluetoothLeGattSample\build\res\all\debug\drawable-hdpi\
+* BluetoothLeGattSample\build\res\all\debug\drawable-hdpi\ic_launcher.png
+* BluetoothLeGattSample\build\res\all\debug\drawable-hdpi\tile.9.png
+* BluetoothLeGattSample\build\res\all\debug\drawable-mdpi\
+* BluetoothLeGattSample\build\res\all\debug\drawable-mdpi\ic_launcher.png
+* BluetoothLeGattSample\build\res\all\debug\drawable-xhdpi\
+* BluetoothLeGattSample\build\res\all\debug\drawable-xhdpi\ic_launcher.png
+* BluetoothLeGattSample\build\res\all\debug\drawable-xxhdpi\
+* BluetoothLeGattSample\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
+* BluetoothLeGattSample\build\res\all\debug\layout\
+* BluetoothLeGattSample\build\res\all\debug\layout\actionbar_indeterminate_progress.xml
+* BluetoothLeGattSample\build\res\all\debug\layout\activity_main.xml
+* BluetoothLeGattSample\build\res\all\debug\layout\dialog.xml
+* BluetoothLeGattSample\build\res\all\debug\layout\gatt_services_characteristics.xml
+* BluetoothLeGattSample\build\res\all\debug\layout\listitem_device.xml
+* BluetoothLeGattSample\build\res\all\debug\menu\
+* BluetoothLeGattSample\build\res\all\debug\menu\gatt_services.xml
+* BluetoothLeGattSample\build\res\all\debug\menu\main.xml
+* BluetoothLeGattSample\build\res\all\debug\values-sw600dp\
+* BluetoothLeGattSample\build\res\all\debug\values-sw600dp\values.xml
+* BluetoothLeGattSample\build\res\all\debug\values\
+* BluetoothLeGattSample\build\res\all\debug\values\values.xml
+* BluetoothLeGattSample\build\source\
+* BluetoothLeGattSample\build\source\buildConfig\
+* BluetoothLeGattSample\build\source\buildConfig\debug\
+* BluetoothLeGattSample\build\source\buildConfig\debug\com\
+* BluetoothLeGattSample\build\source\buildConfig\debug\com\example\
+* BluetoothLeGattSample\build\source\buildConfig\debug\com\example\android\
+* BluetoothLeGattSample\build\source\buildConfig\debug\com\example\android\bluetoothlegatt\
+* BluetoothLeGattSample\build\source\buildConfig\debug\com\example\android\bluetoothlegatt\BuildConfig.java
+* BluetoothLeGattSample\build\source\r\
+* BluetoothLeGattSample\build\source\r\debug\
+* BluetoothLeGattSample\build\source\r\debug\com\
+* BluetoothLeGattSample\build\source\r\debug\com\example\
+* BluetoothLeGattSample\build\source\r\debug\com\example\android\
+* BluetoothLeGattSample\build\source\r\debug\com\example\android\bluetoothlegatt\
+* BluetoothLeGattSample\build\source\r\debug\com\example\android\bluetoothlegatt\R.java
+* BluetoothLeGattSample\src\
+* BluetoothLeGattSample\src\main\
+* BluetoothLeGattSample\src\main\AndroidManifest.xml
+* BluetoothLeGattSample\src\main\java\
+* BluetoothLeGattSample\src\main\java\com\
+* BluetoothLeGattSample\src\main\java\com\example\
+* BluetoothLeGattSample\src\main\java\com\example\android\
+* BluetoothLeGattSample\src\main\java\com\example\android\bluetoothlegatt\
+* BluetoothLeGattSample\src\main\java\com\example\android\bluetoothlegatt\BluetoothLeService.java
+* BluetoothLeGattSample\src\main\java\com\example\android\bluetoothlegatt\DeviceControlActivity.java
+* BluetoothLeGattSample\src\main\java\com\example\android\bluetoothlegatt\DeviceScanActivity.java
+* BluetoothLeGattSample\src\main\java\com\example\android\bluetoothlegatt\SampleGattAttributes.java
+* BluetoothLeGattSample\src\main\res\
+* BluetoothLeGattSample\src\main\res\drawable-hdpi\
+* BluetoothLeGattSample\src\main\res\drawable-hdpi\ic_launcher.png
+* BluetoothLeGattSample\src\main\res\drawable-hdpi\tile.9.png
+* BluetoothLeGattSample\src\main\res\drawable-mdpi\
+* BluetoothLeGattSample\src\main\res\drawable-mdpi\ic_launcher.png
+* BluetoothLeGattSample\src\main\res\drawable-xhdpi\
+* BluetoothLeGattSample\src\main\res\drawable-xhdpi\ic_launcher.png
+* BluetoothLeGattSample\src\main\res\drawable-xxhdpi\
+* BluetoothLeGattSample\src\main\res\drawable-xxhdpi\ic_launcher.png
+* BluetoothLeGattSample\src\main\res\layout\
+* BluetoothLeGattSample\src\main\res\layout\actionbar_indeterminate_progress.xml
+* BluetoothLeGattSample\src\main\res\layout\activity_main.xml
+* BluetoothLeGattSample\src\main\res\layout\dialog.xml
+* BluetoothLeGattSample\src\main\res\layout\gatt_services_characteristics.xml
+* BluetoothLeGattSample\src\main\res\layout\listitem_device.xml
+* BluetoothLeGattSample\src\main\res\menu\
+* BluetoothLeGattSample\src\main\res\menu\gatt_services.xml
+* BluetoothLeGattSample\src\main\res\menu\main.xml
+* BluetoothLeGattSample\src\main\res\values-sw600dp\
+* BluetoothLeGattSample\src\main\res\values-sw600dp\template-dimens.xml
+* BluetoothLeGattSample\src\main\res\values-sw600dp\template-styles.xml
+* BluetoothLeGattSample\src\main\res\values\
+* BluetoothLeGattSample\src\main\res\values\base-strings.xml
+* BluetoothLeGattSample\src\main\res\values\strings.xml
+* BluetoothLeGattSample\src\main\res\values\template-dimens.xml
+* BluetoothLeGattSample\src\main\res\values\template-styles.xml
+* DeviceScanActivity.jar
+* README.txt
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* keystore
+* proguard-project.txt
+* proguard\
+* proguard\dump.txt
+* proguard\mapping - 副本.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+* settings.gradle
+From design:
+* res-public\
+* res-public\values\
+* res-public\values\public_attrs.xml
+* res-public\values\public_strings.xml
+* res-public\values\public_styles.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:25.+
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:25.+
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:25.+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In design:
+* AndroidManifest.xml => design\src\main\AndroidManifest.xml
+* assets\ => design\src\main\assets
+* res\ => design\src\main\res\
+* src\ => design\src\main\java
+* src\.readme => design\src\main\resources\.readme
+In DeviceScanActivity:
+* 111.pro => deviceScanActivity\111.pro
+* AndroidManifest.xml => deviceScanActivity\src\main\AndroidManifest.xml
+* assets\ => deviceScanActivity\src\main\assets\
+* libs\android-support-v7-cardview.jar => deviceScanActivity\libs\android-support-v7-cardview.jar
+* libs\android-support-v7-recyclerview.jar => deviceScanActivity\libs\android-support-v7-recyclerview.jar
+* libs\arm64-v8a\libBaiduMapSDK_base_v4_3_1.so => deviceScanActivity\src\main\jniLibs\arm64-v8a\libBaiduMapSDK_base_v4_3_1.so
+* libs\arm64-v8a\libBaiduMapSDK_map_v4_3_1.so => deviceScanActivity\src\main\jniLibs\arm64-v8a\libBaiduMapSDK_map_v4_3_1.so
+* libs\arm64-v8a\liblocSDK7a.so => deviceScanActivity\src\main\jniLibs\arm64-v8a\liblocSDK7a.so
+* libs\armeabi-v7a\libBaiduMapSDK_base_v4_3_1.so => deviceScanActivity\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_base_v4_3_1.so
+* libs\armeabi-v7a\libBaiduMapSDK_map_v4_3_1.so => deviceScanActivity\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_map_v4_3_1.so
+* libs\armeabi-v7a\liblocSDK7a.so => deviceScanActivity\src\main\jniLibs\armeabi-v7a\liblocSDK7a.so
+* libs\armeabi\libBaiduMapSDK_base_v4_3_1.so => deviceScanActivity\src\main\jniLibs\armeabi\libBaiduMapSDK_base_v4_3_1.so
+* libs\armeabi\libBaiduMapSDK_map_v4_3_1.so => deviceScanActivity\src\main\jniLibs\armeabi\libBaiduMapSDK_map_v4_3_1.so
+* libs\armeabi\liblocSDK7a.so => deviceScanActivity\src\main\jniLibs\armeabi\liblocSDK7a.so
+* libs\BaiduLBS_Android.jar => deviceScanActivity\libs\BaiduLBS_Android.jar
+* libs\glide-3.6.1.jar => deviceScanActivity\libs\glide-3.6.1.jar
+* libs\mpandroidchartlibrary-2-1-6.jar => deviceScanActivity\libs\mpandroidchartlibrary-2-1-6.jar
+* libs\okhttp-3.4.1.jar => deviceScanActivity\libs\okhttp-3.4.1.jar
+* libs\okio-1.9.0.jar => deviceScanActivity\libs\okio-1.9.0.jar
+* libs\x86\libBaiduMapSDK_base_v4_3_1.so => deviceScanActivity\src\main\jniLibs\x86\libBaiduMapSDK_base_v4_3_1.so
+* libs\x86\libBaiduMapSDK_map_v4_3_1.so => deviceScanActivity\src\main\jniLibs\x86\libBaiduMapSDK_map_v4_3_1.so
+* libs\x86\liblocSDK7a.so => deviceScanActivity\src\main\jniLibs\x86\liblocSDK7a.so
+* libs\x86_64\libBaiduMapSDK_base_v4_3_1.so => deviceScanActivity\src\main\jniLibs\x86_64\libBaiduMapSDK_base_v4_3_1.so
+* libs\x86_64\libBaiduMapSDK_map_v4_3_1.so => deviceScanActivity\src\main\jniLibs\x86_64\libBaiduMapSDK_map_v4_3_1.so
+* libs\x86_64\liblocSDK7a.so => deviceScanActivity\src\main\jniLibs\x86_64\liblocSDK7a.so
+* lint.xml => deviceScanActivity\lint.xml
+* res\ => deviceScanActivity\src\main\res\
+* src\ => deviceScanActivity\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

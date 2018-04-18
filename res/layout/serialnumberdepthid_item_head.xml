@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <!-- serialNumber -->
+    <TextView
+        android:id="@+id/serialNumberTv"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+		android:layout_weight="1"
+		android:text="@string/serialNumber"
+		android:gravity="center"
+		android:textSize="14sp">
+    </TextView>
+    <!-- depth -->
+	<TextView
+	    android:id="@+id/depthTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:text="@string/depthStr"
+	    android:gravity="center"
+	    android:textSize="14sp">
+	</TextView>
+	    <!-- ID -->
+	<TextView
+	    android:id="@+id/IDTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:text="@string/ID"
+	    android:gravity="center"
+	    android:textSize="14sp">
+	</TextView>
+	
+</LinearLayout>

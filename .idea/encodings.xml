@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/BluetoothLeService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/ForgetPasswordActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/LaunchActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/LoginActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/NetUilts.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/ResetPasswordActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/data/PublicMethod.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/db/BleDeviceDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/db/DataBaseHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/db/DisplacementMeasuredUnitDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/db/DisplacementMonitorPointDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/db/HydraulicMeasuredUnitDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/db/HydraulicMonitorNetworkDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/db/UserDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/DisplacementActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/monitorpoint/DisplacementMonitorPointActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/monitorpoint/DisplacementMonitorPointDetailActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/query/DisplacementMeasuredUnitQueryActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/query/DisplacementMeasuredUnitQueryInputActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/query/DisplacementMeasuredUnitQueryResultActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/query/DisplacementMeasuredUnitQueryWaitActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/setting/DisplacementMeasuredUnitSettingActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/setting/DisplacementMeasuredUnitSettingThreeActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/setting/DisplacementMeasuredUnitSettingTwoActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/test/DisplacementMeasuredUnitTestActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/test/DisplacementMonitorNetworkTestOneActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/displacement/test/DisplacementMonitorNetworkTestTwoActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/HydraulicActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/monitornetwork/HydraulicMonitorNetworkActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/monitornetwork/HydraulicMonitorNetworkDetailActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/query/HydraulicMeasuredUnitQueryActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/query/HydraulicMeasuredUnitQueryInputActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/query/HydraulicMeasuredUnitQueryResultActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/query/HydraulicMeasuredUnitQueryWaitActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/query/HydraulicNotFoundActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/setting/HydraulicMeasuredUnitSettingActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/setting/HydraulicMeasuredUnitSettingThreeActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/setting/HydraulicMeasuredUnitSettingTwoActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/test/HydraulicMeasuredUnitTestActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/test/HydraulicMonitorNetworkTestActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/test/HydraulicMonitorNetworkTestOneActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/hydraulic/test/HydraulicMonitorNetworkTestTwoActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/measuredunitsetting/list/DisplacementMeasuredResultAdapter.java" charset="GBK" />
+  </component>
+</project>

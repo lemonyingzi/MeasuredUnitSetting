@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <!-- conclusion-->
+    <TextView
+        android:id="@+id/conclusionTv"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+		android:layout_weight="1"
+		android:gravity="center"
+
+		android:textSize="10sp"
+		android:text="@string/conclusion">
+    </TextView>
+    <!-- marginError-->
+	<TextView
+	    android:id="@+id/marginErrorTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textSize="10sp"
+	    android:text="@string/marginError">
+	</TextView>
+	<!-- outputValue -->
+	<TextView
+	    android:id="@+id/outputValueTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textSize="10sp"
+	    android:text="@string/outputValue">
+	</TextView>
+	<!-- measurePoint -->
+	<TextView
+	    android:id="@+id/measurePointTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textSize="10sp"
+	    android:text="@string/measurePoint">
+	</TextView>
+	<!-- temperature -->
+	<TextView
+	    android:id="@+id/temperatureTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textSize="10sp"
+	    android:text="@string/temperatureStr">
+	</TextView>
+	<!-- error -->
+	<TextView
+	    android:id="@+id/errorTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textSize="10sp"
+	    android:text="@string/error">
+	</TextView>
+	<!-- measuredValue -->
+	<TextView
+	    android:id="@+id/measuredValueTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textSize="10sp"
+	    android:text="@string/measuredValue">
+	</TextView>
+	<!-- coeff -->
+	<TextView
+	    android:id="@+id/coeffTv"
+	    android:layout_width="0dp"
+	    android:layout_height="30dp"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:textSize="10sp"
+	    android:text="@string/calibrationCoeffStr">
+	</TextView>
+</LinearLayout>

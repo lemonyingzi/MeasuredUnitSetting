@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2013 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.bluetooth.le"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="17"
+              android:targetSdkVersion="25"/>
+    <!-- Declare this required feature if you want to make the app available to BLE-capable
+    devices only.  If you want to make your app available to devices that don't support BLE,
+    you should omit this in the manifest.  Instead, determine BLE capability by using
+    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE) -->
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	
+	<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />  
+	<uses-permission android:name="android.permission.GET_TASKS" />  
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />  
+    <uses-permission android:name="android.permission.VIBRATE" />
+     
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher"
+                 android:theme="@style/AppTheme"
+                 android:allowBackup="true">
+         <meta-data
+       		android:name="com.baidu.lbsapi.API_KEY"
+       		android:value="n0KQORRrHQyzNBP6HrhEGmdq">
+    	</meta-data>
+                 
+       <activity  
+            android:name="com.example.bluetooth.le.LaunchActivity"  
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  
+            android:label="@string/app_name" >  
+            <intent-filter>  
+                <action android:name="android.intent.action.MAIN" />  
+                <category android:name="android.intent.category.LAUNCHER" />  
+            </intent-filter>  
+        </activity>  
+  
+        <activity android:name=".MainActivity"
+            	  android:launchMode="singleTask"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+                  android:label="@string/app_name">
+        </activity>
+        
+        <activity android:name="com.example.bluetooth.result.ResultActivity"
+            	  android:launchMode="singleTask"
+            	  android:screenOrientation="portrait"  
+            	  android:theme="@style/Theme"/>
+        
+        
+        <activity android:name=".IActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+                  android:launchMode="singleTask"/>
+        
+        <activity android:name=".RankingActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+                  android:launchMode="singleTask"></activity>
+        
+        <activity android:name=".BindTimerActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+                  android:launchMode="singleTask"></activity>
+        
+        <activity android:name="com.example.bluetooth.result.RoundCounterDetailActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+                  android:launchMode="singleTask"></activity>
+        
+        <activity android:name=".InputRCActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+            	  android:launchMode="singleTask"></activity>
+        
+        <activity android:name=".InputRCTextActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+            	  android:launchMode="singleTask"></activity>
+        
+        <activity android:name=".BindedAndUnbindedActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+                  android:launchMode="singleTask"></activity>
+        
+        <activity android:name="com.example.bluetooth.track.TrackActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+            	  android:launchMode="singleTask"></activity>
+        
+        <activity android:name="com.example.bluetooth.track.AddTrackActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+            	  android:launchMode="singleTask"></activity>
+        
+        <activity android:name="com.example.bluetooth.set.MainSettingActivity"
+            	  android:theme="@style/Theme"
+            	  android:screenOrientation="portrait"  
+            	  android:launchMode="singleTask"></activity>
+        
+        <activity android:name="com.example.bluetooth.set.TimerSettingActivity"
+                  android:launchMode="singleTask"
+                  android:screenOrientation="portrait"  
+            	  android:theme="@style/Theme"></activity>
+        
+        <activity android:name="com.example.bluetooth.le.AboutActivity"
+            	  android:launchMode="singleTask"
+            	  android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.example.bluetooth.le.HelpActivity"
+            	  android:launchMode="singleTask"
+            	  android:screenOrientation="portrait"></activity>
+        
+        <service android:name=".BluetoothLeService" android:enabled="true"
+                 android:launchMode="singleTask"/>
+        
+        <service android:name="com.baidu.location.f"
+            	 android:enabled="true"
+            	 android:process=":remote">
+        </service>
+        <service android:name="com.example.bluetooth.download.DownloadService"
+            	android:enabled="true"
+            	android:exported="false"></service>
+      
+        <provider 
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.bluetooth.le.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        
+ 
+        </application>
+        
+    
+</manifest>

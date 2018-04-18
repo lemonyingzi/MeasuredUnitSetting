@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">IrTimer</string>
+    <string name="ble_not_supported">本设备不支持BLE</string>
+    <string name="label_state">连接状态：</string>
+    <string name="connected">已连接</string>
+    <string name="connecting">正在连接</string>
+    <string name="disconnected">断开连接</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <string name="menu_disconnect">断开连接</string>
+    <string name="labelsyncState">同步状态：</string>
+        <string name="syncState">正在同步</string>
+    
+    <string name="start_time_mode">启动限时模式</string>
+    <string name="start_free_mode">启动自由模式</string>
+
+	<string name="setting">设置</string>
+
+    <string name="timer">计时器</string>
+    <string name="connectionstatus">连接状态</string>
+
+    <string name="track">赛道</string>
+    <string name="trackWithBlank">赛道&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="modeWithBlank">模式&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="modeStr">模式：</string>
+    <string name="labeltrack">赛道</string>
+    <string name="timedmodetime">限时模式时间（分钟）</string>
+    <string name="timingprotecttime">保护限制时间（秒）</string>
+    
+    <string name="ranking">排名</string>
+    <string name="I">我</string>
+    <string name="headprotrait">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="ID">ID</string>
+    <string name="personalinfo">个人信息</string>
+    <string name="phone">手机</string>
+    <string name="VIP">VIP</string>
+    <string name="myrc">我的RC</string>
+    <string name="mytimer">我的计时器</string>
+    <string name="help">使用帮助</string>
+    <string name="update">检查更新</string>
+    <string name="about">关于</string>
+
+    <string name="timeStr">时间：</string>
+    <string name="IRIDStr">IRID：</string>
+    <string name="RCCarStr">RC</string>
+    <string name="TrackStr">赛道</string>
+    <string name="TemperatureStr">温度：</string>
+    <string name="HumidityStr">湿度：</string>
+    <string name="PressureStr">大气压强：</string>
+    <string name="LapsStr">圈数：</string>
+    <string name="TolTimeStr">总时间：</string>
+    <string name="AverageTimeStr">平均单圈时间：</string>
+    <string name="BestTimeStr">最快单圈时间：</string>
+    <string name="BestLAPStr">最快圈：</string>
+    <string name="RemarkStr">记录</string>
+    <string name="SpeedCurveStr">成绩图</string>
+    <string name="DetailedResultStr">详细数据</string>
+    <string name="otherStr">其它：</string>
+    <string name="other">其它</string>
+	<string name="LapStr">圈数</string>
+	<string name="TimeStr">时间</string>
+	<string name="LapTimeStr">单圈时间</string>
+	<string name="ReceiveStr">信号计数</string>
+	<string name="RCStr">RC</string>
+	<string name="RCStrWithBlank">RC&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+	<string name="RCStrWith2Blank">RC&#160;&#160;&#160;</string>
+	<string name="IridStr">IRID</string>
+	<string name="date">Date</string>
+	<string name="timeCh">时间</string>
+	<string name="dateCh">日期</string>
+	<string name="lapsCh">圈数</string>
+	<string name="TolTimeCh">总时间</string>
+	<string name="BestLapCh">最快</string>
+	<string name="Laps">Laps</string>
+	<string name="BestLap">Best Lap</string>
+	<string name="NA">N/A</string>
+	<string name="binded">已绑定</string>
+	<string name="binding">绑定</string>
+	<string name="bindNewDevice">绑定新设备</string>
+	<string name="name">Name</string>
+	<string name="address">MAC address</string>
+	<string name="back">＜</string>
+	<string name="resync">重新同步计时器中所有数据</string>
+	<string name="deleteTimerData">删除计时器中所有数据</string>
+	<string name="currentLocation">当前定位：</string>
+	<string name="addTrack">添加新赛道</string>
+	<string name="addTrackName">输入赛道名称：</string>
+	<string name="locationInfo">定位信息：</string>
+	<string name="add">添加</string>
+	<string name="dataFilter">数据筛选</string>
+	<string name="startDate">开始日期</string>
+	<string name="endDate">终止日期</string>
+	<string name="infromation">基本信息</string>
+	<string name="device">设备</string>
+	<string name="lowVoltageProtectStr">低电压保护</string>
+	<string name="LEDStateLampBrightnessStr">状态LED亮度</string>
+	<string name="LCDContrastStr">显示屏对比度</string>
+	<string name="timerParaSettingStr">计时器参数设置</string>
+	<string name="confirmStr">确定</string>
+	<string name="cancelStr">取消</string>
+	<string name="numberAndLetter">offOFF23Ss</string>
+	<string name="numberAndPercent">0123456789%</string>
+	<string name="numberAndPercentAndLetter">offOFF%015</string>
+	<string name="dataChart">数据图表</string>
+	<string name="dataList">数据列表</string>
+	<string name="remarkDetailStr">&#160;抓地力：\n
+ 动力：\n
+ 齿比：\n
+轮胎：\n
+车高(前/后)：\n\r
+ 束角(前/后)：\n
+ 前轮倾角(左/右)：\n
+ 后轮倾角(左/右)：\n
+ 避震弹簧(前/后)：\n
+ 避震油(前/后)：\n
+ 避震上孔(前/后)：\n
+避震下孔(前/后)：\n
+其它："</string>
+<string name="statistics">统计</string>
+<string name="appVersionStr">APP版本：1.0.4</string>
+<string name="timerVersionStr">IrTimer版本：</string>
+<string name="timerSerialNumStr">IrTimer序列号：</string>
+<string name="copyrightStr">版权归属于SJKJSKF团队</string>
+<string name="rivacyStr">
+    &#160;隐私：ACCURATE Smart Timing System\n
+    目前仅提供离线功能，其中定位信息会直接\n
+    上传至百度地图以获取地理信息，因此本产\n
+    品不具备收集用户个人信息的能力。后期开\n
+    发数据云存储、排名等服务，我们会对隐私\n
+    政策进行更新。</string>
+ <string name="syncCompleted">同步完成</string>
+ <string name="notSync">未同步</string>
+ <string name="notBoundIrTimer">您还未绑定IrTimer</string>
+ <string name="syncFail">同步失败</string>
+ <string name="deviceNotConnect">设备没有连接</string>
+ <string name="note">提示</string>
+ <string name="deleteOrNot">是否删除？</string>
+ <string name="deleteOrNotNoQuestion">是否删除</string>
+ <string name="all">全部</string>
+ <string name="unknow">未指定</string>
+ <string name="deletePairedIrTimer">重新绑定将删除已绑定的设备，是否确定</string>
+ <string name="clearTimerOrNot">请确保计时器内的数据已全部同步，本操作将导致未同步的数据完全丢失且不可恢复，是否删除？</string>
+ <string name="timeLimit">限时</string>
+ <string name="freeStr">自由</string>
+ <string name="completeStr">完成</string>
+ <string name="busyStr">正忙</string>
+ <string name="bindingNotQuit">正在绑定，请勿退出</string>
+ <string name="bindSuccess">绑定成功</string>
+ <string name="sencondStr">秒</string>
+ <string name="disabled">不可用</string>
+ <string name="agreePermissions">必须同意所有权限才能使用本程序</string>
+ <string name="trackNameEmpty">赛道名称为空.</string>
+ <string name="errorOfLocation">发生位置错误.</string>
+ <string name="takeLongTimeResynchronize">本操作将耗费较长时间重新同步计时器内所有数据，是否重新同步？</string>
+ <string name="exitApplication">再按一次退出应用</string>
+ <string name="result">详细成绩</string>
+ <string name="downloading">正在下载</string>
+ <string name="downloadSuccess">下载完成</string>
+ <string name="noUpdate">当前是最新版</string>
+ <string name="downloadPaused">暂停</string>
+ <string name="downloadCanceled">取消</string>
+ <string name="checking">正在检查更新</string>
+ <string name="startCannotLargerEndTime">开始时间不能大于终止时间</string>
+ <string name="endCannotSmallerStartTime">终止时间不能小于开始时间</string>
+</resources>

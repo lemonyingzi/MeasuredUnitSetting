@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">IrTimer</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_state">接続状態：</string>
+    <string name="connected">接続正常 </string>
+    <string name="connecting">接続中…</string>
+    <string name="disconnected">未接続</string>
+    
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <string name="menu_disconnect">Not connect</string>
+    <string name="labelsyncState">更新状態：</string>
+    <string name="syncState">更新中…</string>
+    
+    <string name="start_time_mode">通常ﾚｰｽﾓｰﾄﾞ　ﾌﾟﾚｲｽﾀｰﾄ</string>
+    <string name="start_free_mode">ﾌﾘｰ走行ﾓｰﾄﾞ　ﾌﾟﾚｲｽﾀｰﾄ</string>
+
+	<string name="setting">基本設定</string>
+
+    <string name="timer">IrTimer</string>
+    <string name="connectionstatus">接続状態</string>
+
+    <string name="track">ｻｰｷｯﾄ</string>
+    <string name="trackWithBlank">ｻｰｷｯﾄ&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="modeWithBlank">ﾌﾟﾚｲﾓｰﾄﾞ&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="modeStr">ﾌﾟﾚｲﾓｰﾄﾞ：</string>
+    <string name="labeltrack">ｻｰｷｯﾄ</string>
+    <string name="timedmodetime">ﾀｲﾑｾｯﾄ(min)</string>
+    <string name="timingprotecttime">ﾀｲﾑﾘﾐｯﾄ保護(sec)</string>
+    
+    <string name="result">詳細成績</string>
+    <string name="ranking">成績順位</string>
+    <string name="I">ﾏｲﾍﾟｰｼﾞ</string>
+    <string name="headprotrait">头像</string>
+    <string name="nickname">ﾕｰｻﾞﾈｰﾑ</string>
+    <string name="ID">ID</string>
+    <string name="personalinfo">個人情報</string>
+    <string name="phone">携帯電話</string>
+    <string name="VIP">VIP</string>
+    <string name="myrc">ﾏｲﾗｼﾞｺﾝ</string>
+    <string name="mytimer">ﾏｲIrTimer</string>
+    <string name="help">取扱説明書</string>
+    <string name="update">ｱﾌﾟﾘｱｯﾌﾟﾃﾞｰﾄ</string>
+    <string name="about">ｱﾌﾟﾘｹｰｼｮﾝ情報</string>
+
+    <string name="timeStr">時間：</string>
+    <string name="IRIDStr">IRID：</string>
+    <string name="RCCarStr">ﾗｼﾞｺﾝ</string>
+    <string name="TrackStr">ｻｰｷｯﾄ</string>
+    <string name="TemperatureStr">温度：</string>
+    <string name="HumidityStr">湿度：</string>
+    <string name="PressureStr">大気圧：</string>
+    <string name="LapsStr">ﾗｯﾌﾟ：</string>
+    <string name="TolTimeStr">ﾄｰﾀﾙﾀｲﾑ：</string>
+    <string name="AverageTimeStr">平均ﾗｯﾌﾟﾀｲﾑ：</string>
+    <string name="BestTimeStr">ﾍﾞｽﾄﾗｯﾌﾟﾀｲﾑ：</string>
+    <string name="BestLAPStr">ﾍﾞｽﾄﾗｯﾌﾟ：</string>
+    <string name="RemarkStr">ﾗｼﾞｺﾝ設定ﾒｰﾓ（編集可能）</string>
+    <string name="SpeedCurveStr">ﾗｯﾌﾟ分析図</string>
+    <string name="DetailedResultStr">ﾗｯﾌﾟ詳細ﾃﾞｰﾀ</string>
+
+    <string name="otherStr">その他：</string>
+    <string name="other">その他</string>
+	<string name="LapStr">ﾗｯﾌﾟ</string>
+	<string name="TimeStr">時間</string>
+	<string name="LapTimeStr">ﾗｯﾌﾟﾀｲﾑ</string>
+	<string name="ReceiveStr">ｶｳﾝﾀｰ</string>
+	<string name="RCStr">ﾗｼﾞｺﾝ</string>
+	<string name="RCStrWithBlank">ﾗｼﾞｺﾝ&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+	<string name="RCStrWith2Blank">ﾗｼﾞｺﾝ&#160;&#160;&#160;</string>
+	<string name="IridStr">IRID</string>
+	<string name="date">Date</string>
+	<string name="timeCh">ﾀｲﾑ</string>
+	<string name="dateCh">日付</string>
+	<string name="lapsCh">周回数</string>
+	<string name="TolTimeCh">ﾄｰﾀﾙﾀｲﾑ</string>
+	<string name="BestLapCh">ﾍﾞｽﾄﾀｲﾑ</string>
+	<string name="Laps">Laps</string>
+	<string name="BestLap">Best Lap</string>
+	<string name="NA">N/A</string>
+	<string name="binded">ﾍﾟｱﾘﾝｸﾞ完成</string>
+	<string name="binding">ﾍﾟｱﾘﾝｸﾞ</string>
+	<string name="bindNewDevice">新規ﾍﾟｱﾘﾝｸﾞ</string>
+	<string name="name">Name</string>
+	<string name="address">MAC address</string>
+	<string name="back">＜</string>
+	<string name="resync">IrTimerﾃﾞｰﾀ全同期</string>
+	<string name="deleteTimerData">IrTimerﾃﾞｰﾀ全削除</string>
+	<string name="currentLocation">現在位置：</string>
+	<string name="addTrack">新規ｻｰｷｯﾄ追加</string>
+	<string name="addTrackName">ｻｰｷｯﾄ：</string>
+	<string name="locationInfo">位置情報：</string>
+	<string name="add">新規ｻｰｷｯﾄ追加</string>
+	<string name="dataFilter">検索条件絞り</string>
+	<string name="startDate">開始日</string>
+	<string name="endDate">終了日</string>
+	<string name="infromation">基本情報</string>
+	<string name="device">ﾃﾞﾊﾞｲｽ</string>
+	<string name="lowVoltageProtectStr">ﾛｰﾊﾞｯﾃﾘ-</string>
+	<string name="LEDStateLampBrightnessStr">ｽﾃｰﾀｽLEDの明るさ</string>
+	<string name="LCDContrastStr">LCDｺﾝﾄﾗｽﾄ</string>
+	<string name="timerParaSettingStr">IrTimer設定</string>
+	<string name="confirmStr">確定</string>
+	<string name="cancelStr">ｷｬﾝｾﾙ</string>
+	
+	<string name="numberAndLetter">offOFF23Ss</string>
+	<string name="numberAndPercent">0123456789%</string>
+	<string name="numberAndPercentAndLetter">offOFF%015</string>
+	<string name="dataChart">成績図</string>
+	<string name="dataList">成績ﾘｽﾄ</string>
+	<string name="remarkDetailStr">&#160;ｸﾞﾘｯﾌﾟ：\n
+ ﾊﾟﾜｰ：\n
+ｷﾞｱ比：\n
+ﾀｲﾔ：\n
+車高(F/R)：\n\r
+ﾄｰ(F/R)：\n
+ ﾌﾛﾝﾄｷｬﾝﾊﾞｰ(L/R)：\n
+ ﾘｱｷｬﾝﾊﾞｰ(L/R)：\n
+ｽﾌﾟﾘﾝｸﾞ：\n
+ｼｮｯｸｵｲﾙ：\n
+ｼｮｯｸｱﾌﾞｿｰﾊﾞｰﾎｰﾙ(F/R)：\n
+ｼｮｯｸｻｽﾍﾞﾝｼｮﾝｱｰﾑﾎｰﾙ(F/R)：\n
+その他：</string>
+<string name="statistics">成績分析</string>
+<string name="appVersionStr">ｱﾌﾟﾘｹｰｼｮﾝﾊﾞｰｼﾞｮﾝ：1.0.4</string>
+<string name="timerVersionStr">IrTimerﾌｧｰﾑｳｪｱ：</string>
+<string name="timerSerialNumStr">IrTimerｼﾘｱﾙﾅﾝﾊﾞｰ：</string>
+<string name="copyrightStr">Copyright by Team SJKJSKF</string>
+<string name="rivacyStr">
+    &#160;Privacy: ACCURATE Smart Timing System\n
+   currently provides only offline features\n
+    where the location information uploaded to\n
+   Baidu maps for getting geographic \n
+    information, therefore, this product does\n
+    not have the ability to collect personal\n
+    information users. We will update the\n
+    privacy policy when the cloud storage,\n
+    ranking and other services are developed\n
+    later.</string>
+  <string name="syncCompleted">更新完了</string>
+  <string name="notSync">同期完了していません</string>
+  <string name="notBoundIrTimer">IrTimerとﾍﾟｱしていません</string>
+  <string name="syncFail">ﾃﾞｰﾀ更新失敗</string>
+  <string name="deviceNotConnect">IrTimerと接続していません</string>
+  <string name="note">注意！</string>
+  <string name="deleteOrNot">削除しますか？</string>
+  <string name="deleteOrNotNoQuestion">削除</string>
+  <string name="all">すべて</string>
+  <string name="unknow">指定ﾅｼ</string>
+   <string name="deletePairedIrTimer">ﾍﾟｱのIrTimerを削除しますか？</string>
+   <string name="clearTimerOrNot">本体内全てのﾃﾞｰﾀを削除します。削除実行しますが？</string>
+   <string name="timeLimit">通常ﾚｰｽﾓｰﾄﾞ</string>
+   <string name="freeStr">ﾌﾘｰ走行ﾓｰﾄﾞ</string>
+   <string name="completeStr">完了</string>
+   <string name="busyStr">処理中…</string>
+   <string name="bindingNotQuit">ﾍﾟｱﾘﾝｸﾞ…</string>
+   <string name="bindSuccess">ﾍﾟｱﾘﾝｸﾞ完了</string>
+   <string name="sencondStr">sec</string>
+   <string name="disabled">ﾉｰｻﾎﾟｰﾄ</string>
+   <string name="agreePermissions">このプログラムを使用する前に、全ての許可を同意しなければなりません。</string>
+   <string name="trackNameEmpty">ｺｰｽ名無</string>
+   <string name="errorOfLocation">ﾛｹｰｼｮﾝｴﾗｰ</string>
+   <string name="takeLongTimeResynchronize">本体内全てのﾃﾞｰﾀを再同期処理のためお時間がかかります。再同期しますか?</string>
+   <string name="exitApplication">ｱﾌﾟﾘｹｰｼｮﾝ終了</string>
+   <string name="downloading">ﾀﾞﾝﾛｰﾄﾞ開始…</string>
+   <string name="downloadSuccess">ﾀﾞﾝﾛｰﾄﾞ完了</string>
+   <string name="noUpdate">最新ﾊﾞｰｼﾞｮﾝ</string>
+  <string name="downloadPaused">pause</string>
+   <string name="downloadCanceled">取り消し</string>
+   <string name="checking">更新ﾁｪｯｸ中…</string>
+    <string name="startCannotLargerEndTime">開始日設定ｴﾗｰ</string>
+   <string name="endCannotSmallerStartTime">終了日設定ｴﾗｰ</string>
+</resources>

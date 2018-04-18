@@ -1,0 +1,602 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:2:1-281:12
+INJECTED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:2:1-281:12
+INJECTED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:2:1-281:12
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\4c9d9b78fa3e84beb4d567a1480d2448\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\afb58528827f2d15ffeba0dc8c2d4e7d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\49becb3c2605d5c01df746fbafc8c803\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\5aee5b030aee8110f7391f0514b8507e\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\86711f0c67636265f969b7bf8aa2116a\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dca580bf6179ddc1c6b169fa276de929\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\686cf7e3b28e325676b0720cd9cfdd11\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\c50c56addaedff46b9564a45e21f14e8\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\b23e29ea2c4dadcdcd4f0339a46144ab\AndroidManifest.xml:17:1-27:12
+INJECTED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:2:1-281:12
+INJECTED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:2:1-281:12
+	package
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:3:5-38
+	android:versionName
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:5:5-30
+		INJECTED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml
+		INJECTED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:4:5-28
+		INJECTED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml
+		INJECTED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml
+uses-sdk
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\4c9d9b78fa3e84beb4d567a1480d2448\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\4c9d9b78fa3e84beb4d567a1480d2448\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\afb58528827f2d15ffeba0dc8c2d4e7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\afb58528827f2d15ffeba0dc8c2d4e7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\49becb3c2605d5c01df746fbafc8c803\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\49becb3c2605d5c01df746fbafc8c803\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\5aee5b030aee8110f7391f0514b8507e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\5aee5b030aee8110f7391f0514b8507e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\86711f0c67636265f969b7bf8aa2116a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\86711f0c67636265f969b7bf8aa2116a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dca580bf6179ddc1c6b169fa276de929\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dca580bf6179ddc1c6b169fa276de929\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\686cf7e3b28e325676b0720cd9cfdd11\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\686cf7e3b28e325676b0720cd9cfdd11\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\c50c56addaedff46b9564a45e21f14e8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\c50c56addaedff46b9564a45e21f14e8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\b23e29ea2c4dadcdcd4f0339a46144ab\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\b23e29ea2c4dadcdcd4f0339a46144ab\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\4c9d9b78fa3e84beb4d567a1480d2448\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.CAMERA
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:12:2-62
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:12:19-59
+uses-permission#android.permission.FLASHLIGHT
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:13:2-66
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:13:19-63
+uses-feature#android.hardware.camera
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:15:2-57
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:15:16-54
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:16:2-67
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:16:16-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:18:2-65
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:18:19-62
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:20:3-65
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:20:20-63
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:21:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:22:2-78
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:22:19-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:23:2-77
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:23:19-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:24:2-75
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:24:19-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:25:2-72
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:25:19-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:26:2-75
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:26:19-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:27:2-72
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:27:19-70
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:28:2-71
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:28:19-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:29:2-63
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:29:19-61
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:30:2-80
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:30:19-78
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:32:2-82
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:32:19-79
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:33:2-65
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:33:19-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:34:2-70
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:34:19-67
+uses-permission#android.permission.VIBRATE
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:35:5-66
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:35:22-63
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:36:5-72
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:36:22-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:37:5-70
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:37:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:38:5-67
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:38:22-64
+application
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:40:5-278:22
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\4c9d9b78fa3e84beb4d567a1480d2448\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\4c9d9b78fa3e84beb4d567a1480d2448\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\afb58528827f2d15ffeba0dc8c2d4e7d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.2.0.aar\afb58528827f2d15ffeba0dc8c2d4e7d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\49becb3c2605d5c01df746fbafc8c803\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.2.0.aar\49becb3c2605d5c01df746fbafc8c803\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\5aee5b030aee8110f7391f0514b8507e\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\5aee5b030aee8110f7391f0514b8507e\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\86711f0c67636265f969b7bf8aa2116a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\86711f0c67636265f969b7bf8aa2116a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dca580bf6179ddc1c6b169fa276de929\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dca580bf6179ddc1c6b169fa276de929\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\686cf7e3b28e325676b0720cd9cfdd11\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\686cf7e3b28e325676b0720cd9cfdd11\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\c50c56addaedff46b9564a45e21f14e8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\c50c56addaedff46b9564a45e21f14e8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\b23e29ea2c4dadcdcd4f0339a46144ab\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\b23e29ea2c4dadcdcd4f0339a46144ab\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:44:9-41
+	android:icon
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:43:9-45
+	android:allowBackup
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:41:9-35
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:45:9-40
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:46:3-55
+activity#com.measuredunitsetting.LaunchActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:50:10-58:20
+	android:label
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:53:13-45
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:52:13-71
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:51:13-66
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:54:13-57:29
+action#android.intent.action.MAIN
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:56:27-74
+activity#com.measuredunitsetting.MainActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:60:9-65:20
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:63:16-52
+	android:label
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:64:19-51
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:61:16-46
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:62:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:60:19-47
+activity#com.measuredunitsetting.LoginActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:67:11-70:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:69:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:68:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:70:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:67:21-73
+activity#com.measuredunitsetting.ForgetPasswordActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:71:11-74:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:73:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:72:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:74:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:71:21-82
+activity#com.measuredunitsetting.ResetPasswordActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:75:11-78:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:77:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:76:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:78:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:75:21-81
+activity#com.measuredunitsetting.ResetPasswordSuccessActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:79:11-82:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:81:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:80:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:82:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:79:21-88
+activity#com.measuredunitsetting.SettersActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:83:11-86:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:85:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:84:16-46
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:86:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:83:21-75
+activity#com.measuredunitsetting.NetworkUnconnectedActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:88:3-91:35
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:90:5-41
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:89:5-36
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:91:5-33
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:88:13-78
+activity#com.measuredunitsetting.hydraulic.HydraulicActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:94:12-97:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:96:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:95:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:97:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:94:22-88
+activity#com.measuredunitsetting.hydraulic.setting.HydraulicMeasuredUnitSettingActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:98:11-101:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:100:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:99:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:101:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:98:21-114
+activity#com.measuredunitsetting.hydraulic.setting.HydraulicMeasuredUnitSettingTwoActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:103:11-106:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:105:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:104:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:106:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:103:21-117
+activity#com.measuredunitsetting.hydraulic.setting.HydraulicMeasuredUnitSettingThreeActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:108:11-111:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:110:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:109:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:111:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:108:21-119
+activity#com.measuredunitsetting.hydraulic.test.HydraulicTestActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:113:8-116:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:115:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:114:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:116:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:113:18-93
+activity#com.measuredunitsetting.hydraulic.test.HydraulicMeasuredUnitTestActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:118:8-121:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:120:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:119:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:121:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:118:18-105
+activity#com.measuredunitsetting.hydraulic.test.HydraulicMonitorNetworkTestActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:123:8-126:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:125:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:124:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:126:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:123:18-107
+activity#com.measuredunitsetting.hydraulic.test.HydraulicMonitorNetworkTestOneActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:127:10-130:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:129:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:128:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:130:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:127:20-112
+activity#com.measuredunitsetting.hydraulic.test.HydraulicMonitorNetworkTestTwoActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:132:10-135:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:134:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:133:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:135:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:132:20-112
+activity#com.measuredunitsetting.hydraulic.query.HydraulicMeasuredUnitQueryActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:137:11-140:46
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:139:16-52
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:138:16-47
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:140:16-44
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:137:21-110
+activity#com.measuredunitsetting.hydraulic.query.HydraulicMeasuredUnitQueryInputActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:142:11-146:16
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:144:18-54
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:143:18-49
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:145:18-46
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:142:21-115
+activity#com.measuredunitsetting.hydraulic.query.HydraulicMeasuredUnitQueryResultActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:148:11-152:16
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:150:18-54
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:149:18-49
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:151:18-46
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:148:21-116
+activity#com.measuredunitsetting.hydraulic.query.HydraulicMeasuredUnitQueryWaitActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:154:10-158:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:156:18-54
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:155:18-49
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:157:18-46
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:154:20-113
+activity#com.measuredunitsetting.hydraulic.monitornetwork.HydraulicMonitorNetworkActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:160:11-164:16
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:162:18-54
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:161:18-49
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:163:18-46
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:160:21-116
+activity#com.measuredunitsetting.hydraulic.monitornetwork.HydraulicMonitorNetworkDetailActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:166:10-170:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:168:18-54
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:167:18-49
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:169:18-46
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:166:20-121
+activity#com.measuredunitsetting.hydraulic.query.HydraulicNotFoundActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:172:3-175:34
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:174:4-40
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:173:4-35
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:175:4-32
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:172:13-93
+activity#zxing.activity.CaptureActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:178:10-181:63
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:180:7-43
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:181:7-60
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:179:7-52
+service#com.measuredunitsetting.BluetoothLeService
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:184:4-185:51
+	android:enabled
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:184:48-70
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:185:18-49
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:184:13-47
+activity#com.measuredunitsetting.displacement.DisplacementActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:187:4-191:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:189:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:188:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:190:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:187:14-86
+activity#com.measuredunitsetting.displacement.setting.DisplacementMeasuredUnitSettingActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:193:5-197:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:195:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:194:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:196:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:193:15-114
+activity#com.measuredunitsetting.displacement.setting.DisplacementMeasuredUnitSettingTwoActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:198:4-202:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:200:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:199:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:201:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:198:14-116
+activity#com.measuredunitsetting.displacement.setting.DisplacementMeasuredUnitSettingThreeActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:203:4-207:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:205:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:204:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:206:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:203:14-118
+activity#com.measuredunitsetting.displacement.monitorpoint.DisplacementMonitorPointActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:208:4-212:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:210:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:209:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:211:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:208:14-111
+activity#com.measuredunitsetting.displacement.monitorpoint.DisplacementMonitorPointDetailActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:213:4-217:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:215:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:214:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:216:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:213:14-117
+activity#com.measuredunitsetting.displacement.test.DisplacementTestActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:219:4-223:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:221:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:220:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:222:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:219:14-95
+activity#com.measuredunitsetting.displacement.test.DisplacementMeasuredUnitTestActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:225:4-229:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:227:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:226:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:228:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:225:14-107
+activity#com.measuredunitsetting.displacement.query.DisplacementMeasuredUnitQueryActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:231:5-235:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:233:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:232:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:234:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:231:15-110
+activity#com.measuredunitsetting.displacement.query.DisplacementMeasuredUnitQueryInputActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:237:4-241:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:239:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:238:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:240:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:237:14-114
+activity#com.measuredunitsetting.displacement.query.DisplacementNotFoundActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:243:3-246:34
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:245:4-40
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:244:4-35
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:246:4-32
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:243:13-99
+activity#com.measuredunitsetting.displacement.query.DisplacementMeasuredUnitQueryWaitActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:249:5-253:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:251:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:250:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:252:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:249:15-114
+activity#com.measuredunitsetting.displacement.query.DisplacementMeasuredUnitQueryResultActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:255:5-259:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:257:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:256:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:258:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:255:15-116
+activity#com.measuredunitsetting.displacement.test.DisplacementMonitorNetworkTestActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:261:5-265:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:263:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:262:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:264:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:261:15-110
+activity#com.measuredunitsetting.displacement.test.DisplacementMonitorNetworkTestOneActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:267:4-271:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:269:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:268:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:270:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:267:14-112
+activity#com.measuredunitsetting.displacement.test.DisplacementMonitorNetworkTestTwoActivity
+ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:273:5-277:15
+	android:screenOrientation
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:275:14-50
+	android:launchMode
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:274:8-39
+	android:theme
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:276:14-42
+	android:name
+		ADDED from E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\AndroidManifest.xml:273:15-113

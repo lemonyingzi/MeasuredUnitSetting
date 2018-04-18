@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <!-- 序号 -->
+    <TextView
+        android:id="@+id/serialNumberTv"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+		android:layout_weight="2"
+		android:gravity="center"
+		android:text="@string/serialNumber"
+		android:textSize="14sp">
+    </TextView>
+    <!-- 深度-->
+	<TextView
+	    android:id="@+id/depthTv"
+	    android:layout_width="0dp"
+	    android:layout_height="25dp"
+	    android:layout_weight="3"
+	    android:gravity="center"
+	    android:text="@string/depthStr"
+	    android:textSize="14sp">
+	</TextView>
+	    <!-- X-->
+	<TextView
+	    android:id="@+id/xTv"
+	    android:layout_width="0dp"
+	    android:layout_height="25dp"
+	    android:layout_weight="3"
+	    android:gravity="center"
+	    android:text="@string/XStr"
+	    android:textSize="14sp">
+
+	</TextView>
+	<!-- y -->
+	<TextView
+	    android:id="@+id/yTv"
+	    android:layout_width="0dp"
+	    android:layout_height="25dp"
+	    android:layout_weight="3"
+	    android:gravity="center"
+	    android:text="@string/YStr"
+	   
+	    android:textSize="14sp">
+	</TextView>
+	<!-- z -->
+	<TextView
+	    android:id="@+id/zTv"
+	    android:layout_width="0dp"
+	    android:layout_height="25dp"
+	    android:layout_weight="3"
+	    android:gravity="center"
+	    android:text="@string/ZStr"
+	    
+	    android:textSize="14sp">
+	</TextView>
+	    <!-- temperature-->
+	<TextView
+	    android:id="@+id/temperatureTv"
+	    android:layout_width="0dp"
+	    android:layout_height="25dp"
+	    android:layout_weight="3"
+	    android:text="@string/temperatureStr"
+	    android:gravity="center"
+	    android:textSize="14sp">
+	</TextView>
+</LinearLayout>

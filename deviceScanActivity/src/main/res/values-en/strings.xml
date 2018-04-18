@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">IrTimer</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_state">Device:</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnected">Not connect</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_disconnect">Not connect</string>
+    <string name="labelsyncState"></string>
+    <string name="syncState">Syncing:</string>
+    
+    <string name="start_time_mode">Start timed mode</string>
+    <string name="start_free_mode">Start free mode</string>
+
+	<string name="setting">Settings</string>
+
+    <string name="timer">IrTimer</string>
+    <string name="connectionstatus">Device</string>
+
+    <string name="track">Track</string>
+    <string name="trackWithBlank">Track&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="modeWithBlank">Mode&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="modeStr">Mode:</string>
+    <string name="labeltrack">Track</string>
+    <string name="timedmodetime">Timed set (min)</string>
+    <string name="timingprotecttime">Time limit(sec)</string>
+    
+    <string name="ranking">Rank</string>
+    <string name="I">Profile</string>
+    <string name="headprotrait">头像</string>
+    <string name="nickname">User name</string>
+    <string name="ID">ID</string>
+    <string name="personalinfo">Information</string>
+    <string name="phone">Mobile phone</string>
+    <string name="VIP">VIP</string>
+    <string name="myrc">My RC</string>
+    <string name="mytimer">My IrTimer</string>
+    <string name="help">Help</string>
+    <string name="update">Check for updates</string>
+    <string name="about">About</string>
+
+    <string name="timeStr">Time:</string>
+    <string name="IRIDStr">IRID:</string>
+    <string name="RCCarStr">RC</string>
+    <string name="TrackStr">Track</string>
+    <string name="TemperatureStr">TEMP:</string>
+    <string name="HumidityStr">Humidity:</string>
+    <string name="PressureStr">Pressure:</string>
+    <string name="LapsStr">LAP:</string>
+    <string name="TolTimeStr">Total time:</string>
+    <string name="AverageTimeStr">Average time:</string>
+    <string name="BestTimeStr">Best time:</string>
+    <string name="BestLAPStr">Best LAP:</string>
+    <string name="RemarkStr">Mark</string>
+    <string name="SpeedCurveStr">Speed curve</string>
+    <string name="DetailedResultStr">Detailed data</string>
+    <string name="otherStr">Others:</string>
+    <string name="other">Others</string>
+	<string name="LapStr">LAP</string>
+	<string name="TimeStr">Time</string>
+	<string name="LapTimeStr">LAP time</string>
+	<string name="ReceiveStr">Counter</string>
+	<string name="RCStr">RC</string>
+	<string name="RCStrWithBlank">RC&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+	<string name="RCStrWith2Blank">RC&#160;&#160;&#160;</string>
+	<string name="IridStr">IRID</string>
+	<string name="date">Date</string>
+	<string name="timeCh">Time</string>
+	<string name="dateCh">Date</string>
+	<string name="lapsCh">LAP</string>
+	<string name="TolTimeCh">Total time</string>
+	<string name="BestLapCh">Best</string>
+	<string name="Laps">Laps</string>
+	<string name="BestLap">Best Lap</string>
+	<string name="NA">N/A</string>
+	<string name="binded">Paired</string>
+	<string name="binding">Pair</string>
+	<string name="bindNewDevice">Pair new IrTimer</string>
+	<string name="name">Name</string>
+	<string name="address">MAC address</string>
+	<string name="back">＜</string>
+	<string name="resync">Resync IrTimer\'s data</string>
+	<string name="deleteTimerData">Delete IrTimer\'s data</string>	
+	<string name="currentLocation">Current location:</string>
+	<string name="addTrack">Add new track</string>
+	<string name="addTrackName">Input track name:</string>
+	<string name="locationInfo">Location information:</string>
+	<string name="add">Add</string>
+	<string name="dataFilter">Select</string>
+	<string name="startDate">From date</string>
+	<string name="endDate">To date</string>
+	<string name="infromation">Basic information</string>
+	<string name="device">Device</string>
+	<string name="lowVoltageProtectStr">Under voltage protection</string>
+	<string name="LEDStateLampBrightnessStr">Status LED brightness</string>
+	<string name="LCDContrastStr">LCD contrast</string>
+	<string name="timerParaSettingStr">IrTimer Settings</string>
+	<string name="confirmStr">Yes</string>
+	<string name="cancelStr">No</string>
+	<string name="numberAndLetter">offOFF23Ss</string>
+	<string name="numberAndPercent">0123456789%</string>
+	<string name="numberAndPercentAndLetter">offOFF%015</string>
+	<string name="dataChart">Chart</string>
+	<string name="dataList">List</string>
+	<string name="remarkDetailStr">&#160;Friction:\n
+ Power:\n
+ Gear proportion:\n
+ Tyre:\n
+ Ride height(F/R):\n\r
+ TOE(F/R):\n
+ Front Camber(L/R):\n
+ Rear Camber(L/R):\n
+ Shock spring(F/R):\n
+ Shock oil(F/R):\n
+ Shock absorber hole(F/R):\n
+ Shock suspension arm hole(F/R):\n
+ Others:"</string>
+<string name="statistics">History</string>
+<string name="appVersionStr">App version:1.0.4</string>
+<string name="timerVersionStr">IrTimer firmware:</string>
+<string name="timerSerialNumStr">IrTimer serial number:</string>
+<string name="copyrightStr">Copyright by Team SJKJSKF</string>
+<string name="rivacyStr">
+    &#160; &#160;Privacy: ACCURATE Smart Timing System\n
+   currently provides only offline features\n
+    where the location information uploaded to\n
+   Baidu maps for getting geographic \n
+    information, therefore, this product does\n
+    not have the ability to collect personal\n
+    information users. We will update the\n
+    privacy policy when the cloud storage,\n
+    ranking and other services are developed\n
+    later.</string>
+   <string name="syncCompleted">Latest sync time:</string>
+   <string name="notSync">Unsync</string>
+   <string name="notBoundIrTimer">Unpair IrTimer</string>
+   <string name="syncFail">Sync failure</string>
+   <string name="deviceNotConnect">Not connect</string>
+   <string name="note">Note</string>
+   <string name="deleteOrNot">Delete?</string>
+   <string name="deleteOrNotNoQuestion">Delete</string>
+   <string name="all">All</string>
+   <string name="unknow">Unknow</string>
+   <string name="deletePairedIrTimer">Will delete paired IrTimer,sure?</string>
+   <string name="clearTimerOrNot">Please ensure all data in IrTimer has be synced, This operation will lost unsync data and cannot be recovered.</string>
+   <string name="timeLimit">Timed</string>
+   <string name="freeStr">Free</string>
+   <string name="completeStr">Complete</string>
+   <string name="busyStr">Busy</string>
+   <string name="bindingNotQuit">Pairing, please don\'t exit.</string>
+   <string name="bindSuccess">Paired</string>
+   <string name="sencondStr">sec</string>
+   <string name="disabled">Unavailable</string>
+   <string name="agreePermissions">APP cannot be used untile agree all permission.</string>
+   <string name="trackNameEmpty">The track name is empty.</string>
+   <string name="errorOfLocation">Error location</string>
+   <string name="takeLongTimeResynchronize"> Resync all the data may take long time, Are you sure?</string>
+   <string name="exitApplication">Press \"back\" again to exit</string>
+   <string name="Result"></string>
+   <string name="downloading">Downloading</string>
+   <string name="downloadSuccess">Download complete</string>
+   <string name="noUpdate">This is the latest version</string>
+   <string name="downloadPaused">Paused</string>
+   <string name="downloadCanceled">Canceled</string>
+   <string name="checking">Checking</string>
+   <string name="startCannotLargerEndTime">Start time cannot be greater than the termination time.</string>
+   <string name="endCannotSmallerStartTime">Termination time cannot be less than start time.</string>
+</resources>

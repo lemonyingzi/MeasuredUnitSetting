@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 头部 -->
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_end_material" >
+       <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomleftiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/timerParaSettingStr"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+    <!-- 保护限制时间-->
+	<LinearLayout
+          android:orientation="horizontal"
+       	  android:layout_width="match_parent"
+       	  android:layout_height="50dp"
+       	  android:id="@+id/protectionTime_layout"
+       	  android:background="@xml/padding">
+     	<TextView android:id="@+id/protectionTimeTextView"
+     	  	  android:layout_width="wrap_content"
+       	      android:layout_height="match_parent"
+       	      android:text="@string/timingprotecttime"
+       	      android:layout_gravity="center"
+       	      android:gravity="center_vertical"
+       	      android:textSize="18sp"
+       	      android:layout_marginStart="20dp">   	    
+     	</TextView>
+     	
+     	     <RelativeLayout 
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center"
+		         android:layout_marginEnd="20dp">
+		    	<EditText
+		            android:id="@+id/protectionTimeEditText"
+		            android:layout_width="60dp"
+		            android:layout_alignParentEnd="true"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:hint=""
+		            android:singleLine="true"
+		            android:background="@xml/edittextpadding"
+		            android:layout_gravity="center"/>
+		       </RelativeLayout>
+
+	</LinearLayout>
+					<!-- LCD对比度 -->
+	<LinearLayout
+          android:orientation="horizontal"
+       	  android:layout_width="match_parent"
+       	  android:layout_height="50dp"
+       	  android:background="@xml/paddingtopiszero">
+     	<TextView android:id="@+id/LCDContrastTextView"
+     	  	  android:layout_width="wrap_content"
+       	      android:layout_height="match_parent"
+       	      android:text="@string/LCDContrastStr"
+       	      android:layout_gravity="center"
+       	      android:gravity="center_vertical"
+       	      android:textSize="18sp"
+       	      android:layout_marginStart="20dp">   	    
+     	</TextView>
+     	<RelativeLayout 
+     	     android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center"
+	         android:layout_marginEnd="20dp">
+		   <EditText
+     	    android:id="@+id/LCDContrastEditText"
+     	    android:layout_width="60dp"
+     	    android:layout_height="wrap_content"
+     	    android:layout_alignParentEnd="true"
+     	    android:layout_gravity="center"
+     	    android:gravity="center"
+     	    android:textSize="18sp"
+     	    android:hint=""
+     	    android:digits="@string/numberAndPercent"
+     	    android:background="@xml/edittextpadding"
+     	    android:singleLine="true"></EditText>
+     	</RelativeLayout>
+    
+	</LinearLayout>
+	
+  		<!-- 低电压保护-->
+	<LinearLayout
+          android:orientation="horizontal"
+       	  android:layout_width="match_parent"
+       	  android:layout_height="50dp"
+       	  android:background="@xml/paddingtopiszero">
+     	<TextView android:id="@+id/lowVoltageProtectTextView"
+     	  	  android:layout_width="wrap_content"
+       	      android:layout_height="match_parent"
+       	      android:text="@string/lowVoltageProtectStr"
+       	      android:layout_gravity="center"
+       	      android:gravity="center_vertical"
+       	      android:textSize="18sp"
+       	      android:layout_marginStart="20dp">   	    
+     	</TextView>
+     	<RelativeLayout
+     	     android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center">
+     	   <Spinner
+               android:layout_width="100dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_gravity="end"
+               android:gravity="center"
+               android:id="@+id/uvpSpinner"></Spinner>
+     	</RelativeLayout>
+      
+	</LinearLayout>
+
+	<!-- LED状态灯亮度-->
+	<LinearLayout
+          android:orientation="horizontal"
+       	  android:layout_width="match_parent"
+       	  android:layout_height="50dp"
+       	  android:background="@xml/paddingtopiszero">
+     	<TextView android:id="@+id/LEDStateLampBrightnessTextView"
+     	  	  android:layout_width="wrap_content"
+       	      android:layout_height="match_parent"
+       	      android:text="@string/LEDStateLampBrightnessStr"
+       	      android:layout_gravity="center"
+       	      android:gravity="center_vertical"
+       	      android:textSize="18sp"
+       	      android:layout_marginStart="20dp">   	    
+     	</TextView>
+     	 <RelativeLayout
+     	     android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center">
+       	<Spinner
+               android:layout_width="100dp"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_alignParentEnd="true"
+               android:id="@+id/ledSpinner"
+               style="@android:attr/spinnerDropDownItemStyle"></Spinner>
+       	 </RelativeLayout>
+	</LinearLayout>
+
+<!-- 确定按钮 -->
+   	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom">
+       	<LinearLayout 
+       	    android:layout_width="match_parent"
+       	    android:layout_height="50dp"
+       	    android:layout_alignParentBottom="true"
+       	    android:background="@xml/padding"
+       	    android:id="@+id/confirmLy">
+       	   <TextView
+	        android:id="@+id/confirmTv"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/confirmStr"
+	        android:textSize="18sp"
+	        android:layout_gravity="center"/>
+       	</LinearLayout>
+	</RelativeLayout>
+	
+   	
+</LinearLayout>

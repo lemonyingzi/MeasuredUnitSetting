@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <!-- 顶部液压水准测量单元查询-->
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#10a9c4"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_end_material">
+        <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomrightiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/readyTv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hydraulicLevelUnitQuery"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+         	  <!-- 设备类型-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+
+	         <TextView
+	             android:id="@+id/deviceTypeTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_gravity="center"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:text="@string/deviceType"
+	             android:textSize="18sp" />
+
+	       <TextView
+	           android:id="@+id/deviceTypeTv"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="right|center"
+	           android:layout_marginEnd="20dp"
+	           android:layout_marginRight="20dp"
+	           android:layout_weight="3"
+	           android:textSize="18sp" />
+		</LinearLayout>
+	      	  <!-- ID-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+
+	         <TextView
+	             android:id="@+id/IDTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:layout_gravity="center"
+	             android:text="@string/IDStr"
+	             android:textSize="18sp" />
+
+	       <TextView
+	           android:id="@+id/IDTv"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="right|center"
+	           android:layout_marginEnd="20dp"
+	           android:layout_marginRight="20dp"
+	           android:layout_weight="3"
+	           android:textSize="18sp" />
+		</LinearLayout>
+	   	  <!-- 授权信息-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+	         <TextView
+	             android:id="@+id/authInfoTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:layout_gravity="center"
+	             android:text="@string/authInfo"
+	             android:textSize="18sp" />
+	       <TextView
+	           android:id="@+id/authInfoTv"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="right|center"
+	           android:layout_marginEnd="20dp"
+	           android:layout_marginRight="20dp"
+	           android:layout_weight="3"
+	           android:textSize="18sp" />
+		</LinearLayout>
+			   	  <!-- 生产日期-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+	         <TextView
+	             android:id="@+id/produceDateTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:layout_gravity="center"
+	             android:text="@string/produceDate"
+	             android:textSize="18sp" />
+	       <TextView
+	           android:id="@+id/produceDateTv"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="right|center"
+	           android:layout_marginEnd="20dp"
+	           android:layout_marginRight="20dp"
+	           android:layout_weight="3"
+	           android:textSize="18sp" />
+		</LinearLayout>
+					   	  <!-- 固件版本-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+	         <TextView
+	             android:id="@+id/hardwareVersionTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:layout_gravity="center"
+	             android:text="@string/hardwareVersion"
+	             android:textSize="18sp" />
+	       <TextView
+	           android:id="@+id/hardwareVersionTv"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="right|center"
+	           android:layout_marginEnd="20dp"
+	           android:layout_marginRight="20dp"
+	           android:layout_weight="3"
+	           android:textSize="18sp" />
+		</LinearLayout>
+						   	  <!-- 出厂检验-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+	         <TextView
+	             android:id="@+id/factoryInspectionTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:layout_gravity="center"
+	             android:text="@string/factoryInspection"
+	             android:textSize="18sp" />
+	       <TextView
+	           android:id="@+id/factoryInspectionTv"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="right|center"
+	           android:layout_marginEnd="20dp"
+	           android:layout_marginRight="20dp"
+	           android:layout_weight="3"
+	           android:textSize="18sp" />
+		</LinearLayout>
+							   	  <!-- 精度等级-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+	         <TextView
+	             android:id="@+id/precisionGradeTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:layout_gravity="center"
+	             android:text="@string/precisionGrade"
+	             android:textSize="18sp" />
+	       <TextView
+	           android:id="@+id/precisionGradeTv"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="right|center"
+	           android:layout_marginEnd="20dp"
+	           android:layout_marginRight="20dp"
+	           android:layout_weight="3"
+	           android:textSize="18sp" />
+		</LinearLayout>
+		
+	     					   	  <!-- 标定系数-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+	         <TextView
+	             android:id="@+id/caliCoeffTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:layout_gravity="center"
+	             android:text="@string/calibrationCoeff"
+	             android:textSize="18sp" />
+	       <TextView
+	           android:id="@+id/caliCoeffTv"
+	           android:layout_width="0dp"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="right|center"
+	           android:layout_marginEnd="20dp"
+	           android:layout_marginRight="20dp"
+	           android:layout_weight="3"
+	           android:textSize="18sp" />
+		</LinearLayout>
+		
+	     	     					   	  <!-- 校准信息表-->
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="30dp"
+	        android:orientation="horizontal" 
+	        android:clickable="true">
+	         <TextView
+	             android:id="@+id/caliSheetTV"
+	             android:layout_width="0dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="20dp"
+	             android:layout_marginStart="20dp"
+	             android:layout_weight="2"
+	             android:gravity="start"
+	             android:layout_gravity="center"
+	             android:text="@string/caliSheet"
+	             android:textSize="18sp" />
+
+		</LinearLayout>
+		
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+		android:layout_weight="1">
+	    <ListView
+	        android:id="@+id/caliSheetListTv"
+	        android:layout_width="match_parent"
+	        android:textSize="16sp"
+	        android:layout_height="wrap_content"
+	        android:dividerHeight="0.5dp" 
+	        android:orientation="vertical"
+	        android:scrollbars="vertical"/>
+	</LinearLayout>
+	
+	
+      <!-- 返回-->
+   	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_gravity="bottom">
+       	<LinearLayout 
+       	    android:layout_width="match_parent"
+       	    android:layout_height="50dp"
+       	    android:layout_alignParentBottom="true"
+       	    android:id="@+id/backLl"
+       	    android:background="@xml/padding">
+     	    <TextView
+       		android:id="@+id/backTV"
+       		android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+       		android:gravity="center"
+       		android:text="@string/backStr"
+       		android:textSize="18sp"
+       		android:layout_gravity="center"/>
+   
+       	</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

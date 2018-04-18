@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <!-- 顶部液压水准测量单元查询-->
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#10a9c4"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_end_material">
+        <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomrightiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/readyTv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/displacementUnitQuery"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+	 <!-- 单个测量单元设置 -->
+    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="200dp"
+	        android:orientation="horizontal" 
+	        android:layout_marginTop="0dp"
+	        android:clickable="true"
+	        android:layout_gravity="center"
+	        android:gravity="center">
+	        <TextView
+	            android:id="@+id/connectMeasureUnitOKTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/conntentMeasueUnit"
+	            android:layout_gravity="center"
+	            android:gravity="start"
+	            android:textSize="18sp"/>
+	
+	</LinearLayout>
+       <!-- 扫码查 、手动查-->
+   	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom">
+       	<LinearLayout 
+       	    android:layout_width="match_parent"
+       	    android:layout_height="50dp"
+       	    android:layout_alignParentBottom="true" 
+       	    android:background="@xml/padding">
+         	<LinearLayout
+       	    	android:layout_width="0dp"
+       	    	android:layout_weight="1"
+       	    	android:id="@+id/manualCheckLl"
+       	    	android:layout_height="50dp">
+       	        <TextView
+	        		android:id="@+id/manualCheckTv"
+	        		android:layout_width="match_parent"
+	        		android:layout_height="wrap_content"
+	        		android:gravity="center"
+	        		android:text="@string/manualCheck"
+	        		android:textSize="18sp"
+	        		android:layout_gravity="center"/>
+       	    </LinearLayout>
+       	    <LinearLayout
+       	    	android:layout_width="0dp"
+       	    	android:layout_weight="1"
+       	    	android:id="@+id/sweepCodeCheckLl"
+       	    	android:background="@xml/paddingbottomiszero"
+       	    	android:layout_height="50dp">
+       	        <TextView
+	        		android:id="@+id/sweepCodeCheckTv"
+	        		android:layout_width="match_parent"
+	        		android:layout_height="wrap_content"
+	        		android:gravity="center"
+	        		android:text="@string/sweepCodeCheck"
+	        		android:textSize="18sp"
+	        		android:layout_gravity="center"/>
+       	    </LinearLayout>
+       	</LinearLayout>
+	</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="colorWhite">#ffffff</color>
+        <color name="colorLine">#0f0f0f</color>
+        <color name="dividingLineColor">#BDBDBD</color>
+        <color name="colorPrimary">#10a9c4</color>
+        <color name="red">#cd0000</color>
+        <color name="yellow">#ffff37</color>
+        
+</resources>

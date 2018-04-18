@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rankingLl" >
+            <!-- 顶部排名-->
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+       <TextView 
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+	    <TextView
+	        android:id="@+id/ranking"
+	        android:text="@string/ranking"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_centerInParent="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/na"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/NA"
+            android:gravity="center"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+<!-- 底部排版 -->
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:background="@xml/padding"        
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+   
+     	<LinearLayout
+     	    android:layout_width="0dp"
+     	    android:layout_height="match_parent"
+     	    android:layout_weight="1"
+     	     android:id="@+id/bottomTimer"
+     	    android:orientation="horizontal"
+     	    android:layout_gravity="center_vertical"
+     	    android:gravity="center">
+     	   <!-- 底部 定时器 -->
+     	   <TextView
+           android:text="@string/timer"
+           android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:textSize="18sp"
+		   android:layout_gravity="center_vertical"
+		   android:gravity="center_vertical"/>   
+     	</LinearLayout>
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:id="@+id/bottomResults"
+           android:gravity="center">
+           		   <!-- 底部 成绩 -->
+		 	<TextView
+		       android:text="@string/statistics"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:textSize="18sp"
+		       android:layout_gravity="center_vertical"
+		   	   android:gravity="center"/>
+       </LinearLayout>
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:id="@+id/bottomRanking"
+		    android:gravity="center">
+		     	   <!-- 底部 排名 -->
+		   	<TextView
+		       android:text="@string/ranking"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"	
+		       android:textColor="@color/colorPrimary"
+		       android:textSize="18sp"
+		       android:layout_gravity="center_vertical"
+		   	   android:gravity="center"/>
+		</LinearLayout>
+	
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:id="@+id/bottomI"
+		    android:gravity="center">
+			  <TextView
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:text="@string/I"
+		       android:textSize="18sp" 
+		       android:layout_gravity="center_vertical"
+		       android:gravity="center"/>
+		</LinearLayout>
+
+
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

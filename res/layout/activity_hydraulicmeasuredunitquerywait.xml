@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <!-- 顶部液压水准测量单元查询-->
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#10a9c4"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_end_material">
+        <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomrightiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/readyTv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hydraulicLevelUnitQuery"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+	 <!-- 单个测量单元设置 -->
+    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="200dp"
+	        android:orientation="vertical" 
+	        android:layout_marginTop="0dp"
+	        android:clickable="true"
+	        android:layout_gravity="center"
+	        android:gravity="center">
+       	
+		        <TextView
+	            android:id="@+id/connectMeasureUnitOKTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/queryingpleasewait"
+	            android:layout_gravity="center"
+	            android:gravity="start"
+	            android:textSize="18sp"/>
+	
+	</LinearLayout>
+       <!-- 扫码查 、手动查-->
+   	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom">
+       	<LinearLayout 
+       	    android:layout_width="match_parent"
+       	    android:layout_height="50dp"
+       	    android:layout_alignParentBottom="true"
+       	    android:id="@+id/backLl"
+       	    android:background="@xml/padding">
+     	    <TextView
+       		android:id="@+id/backTV"
+       		android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+       		android:gravity="center"
+       		android:text="@string/backStr"
+       		android:textSize="18sp"
+       		android:layout_gravity="center"/>
+   
+       	</LinearLayout>
+	</RelativeLayout>
+
+</LinearLayout>

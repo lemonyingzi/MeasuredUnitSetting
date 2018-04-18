@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_end_material">
+        
+         <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomleftiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+         
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/setting"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+      		<!--  计时器参数设置-->
+   <LinearLayout android:id="@+id/timerParaSetting_layout"
+          android:orientation="horizontal"
+       	  android:layout_width="match_parent"
+       	  android:layout_height="50dp"
+       	  android:background="@xml/padding">
+     	<TextView android:id="@+id/timerParaSettingTextView"
+     	  	  android:layout_width="match_parent"
+       	      android:layout_height="match_parent"
+       	      android:text="@string/timerParaSettingStr"
+       	      android:layout_gravity="center"
+       	      android:gravity="center_vertical"
+       	      android:textSize="18sp"
+       	      android:layout_marginStart="20dp">   	    
+     	</TextView>
+	</LinearLayout>
+	
+  		<!-- 重新同步 -->
+   <LinearLayout android:id="@+id/resync_layout"
+          android:orientation="horizontal"
+       	  android:layout_width="match_parent"
+       	  android:layout_height="50dp"
+       	  android:background="@xml/paddingtopiszero">
+     	<TextView android:id="@+id/resync_textview"
+     	  	  android:layout_width="match_parent"
+       	      android:layout_height="match_parent"
+       	      android:text="@string/resync"
+       	      android:layout_gravity="center"
+       	      android:gravity="center_vertical"
+       	      android:textSize="18sp"
+       	      android:layout_marginStart="20dp">   	    
+     	</TextView>
+	</LinearLayout>
+	<!-- 删除计时器数据 -->
+	<LinearLayout android:id="@+id/deleteTimerDataLayout"
+          android:orientation="horizontal"
+       	  android:layout_width="match_parent"
+       	  android:layout_height="50dp"
+       	  android:background="@xml/paddingtopiszero">
+     	<TextView android:id="@+id/deleteTimerData_textview"
+     	  	  android:layout_width="match_parent"
+       	      android:layout_height="match_parent"
+       	      android:text="@string/deleteTimerData"
+       	      android:layout_gravity="center"
+       	      android:gravity="center_vertical"
+       	      android:textSize="18sp"
+       	      android:layout_marginStart="20dp">   	    
+     	</TextView>
+	</LinearLayout>
+
+</LinearLayout>

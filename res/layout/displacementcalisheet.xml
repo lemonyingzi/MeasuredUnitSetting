@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+	<!-- 基准角度 -->
+	<TextView
+		android:id="@+id/compareAngleTv"
+		android:layout_width="0dp"
+		android:layout_height="30dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:textSize="10sp">
+	</TextView>
+
+	<!-- 测量角度 -->
+	<TextView
+		android:id="@+id/zaxisTv"
+		android:layout_width="0dp"
+		android:layout_height="30dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:textSize="10sp">
+	</TextView>
+
+
+	<!-- 重复误差-->
+	<TextView
+		android:id="@+id/repetitionDiffTv"
+		android:layout_width="0dp"
+		android:layout_height="30dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:textSize="10sp">
+	</TextView>
+
+	<!--相对误差-->
+	<TextView
+		android:id="@+id/relativeDiffTv"
+		android:layout_width="0dp"
+		android:layout_height="30dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:textSize="10sp">
+	</TextView>
+
+	<!-- 温度 -->
+	<TextView
+		android:id="@+id/temperatureTv"
+		android:layout_width="0dp"
+		android:layout_height="30dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:textSize="10sp">
+	</TextView>
+
+	<!-- marginError-->
+	<TextView
+		android:id="@+id/conclusionTv"
+		android:layout_width="0dp"
+		android:layout_height="30dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:textSize="10sp">
+	</TextView>
+
+</LinearLayout>

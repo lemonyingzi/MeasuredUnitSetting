@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\libs\MobTools-2017.0607.1736.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd18b5e54c100ded555e92c371c16bea49002ed">
+        <dex dex="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\libs\SMSSDK-3.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f05ef472841da86c5b42cf99abcb3ccd63565e49">
+        <dex dex="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\libs\MobCommons-2017.0607.1736.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="26d8b21098208806ac92abba3cbbf9859cda903a">
+        <dex dex="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\libs\zxing.jar"
+        jumboMode="false"
+        min-sdk-version="18"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+
+</items>

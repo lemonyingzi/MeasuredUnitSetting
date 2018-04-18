@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    	<!-- 标题栏“我” -->
+	<RelativeLayout
+	   android:layout_width="match_parent"
+	   android:layout_height="50dp"
+	   android:background="#10a9c4">
+       <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomleftiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+       <TextView
+	       android:id="@+id/irid"
+	       android:layout_width="wrap_content"
+	       android:layout_height="match_parent"
+	       android:layout_centerInParent="true"
+	       android:layout_alignParentTop="true"
+	       android:layout_gravity="center"
+           android:gravity="center"
+           android:textSize="20sp" 
+	       android:layout_marginTop="5dp"
+	       android:textColor="#ffffff"/>
+	</RelativeLayout>
+    <EditText
+        android:id="@+id/input_rc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="18sp"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:gravity="start"
+        android:hint="">
+    </EditText>
+
+</LinearLayout>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+	        <!-- 顶部成绩-->
+		    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:background="#10a9c4">
+	        <TextView 
+            android:id="@+id/backTv"
+            android:text="@string/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@xml/paddingtopbottomleftiszero"
+            android:gravity="center"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+		    <TextView
+	        android:id="@+id/result"
+	        android:text="@string/result"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_centerInParent="true"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:layout_alignParentTop="true"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"/>
+		    </RelativeLayout>
+		    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+		 <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:focusableInTouchMode="true" 
+		   android:focusable="true"
+           android:orientation="vertical">
+		        <!-- 赛道 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" 
+        android:focusable="true"  
+        android:background="@xml/paddingtopiszero"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/Track_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:text="@string/TrackStr"/>
+        <Spinner
+            android:id="@+id/trackSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"/>
+    </LinearLayout>
+	<!-- RC Car -->
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+        android:focusable="true"  
+        android:background="@xml/paddingtopiszero"
+        android:focusableInTouchMode="true">
+        <TextView
+            android:id="@+id/RCCar_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RCStrWith2Blank"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp" />
+        <Spinner
+            android:id="@+id/RCCarSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"
+	    android:background="@xml/background">
+	</LinearLayout>
+	<!-- 基本信息 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal" 
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:background="@xml/padding">
+        <TextView
+            android:id="@+id/information_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infromation" 
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@xml/padding">
+                 <!-- time -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timeStr" 
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </LinearLayout>
+<!-- IRID -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/IRID_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/IRIDStr"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/IRID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="" />
+    </LinearLayout>
+  <!-- 温度 -->
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/Temperature_text_view"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/TemperatureStr" />
+
+        <TextView
+            android:id="@+id/Temperature"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!-- 湿度 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/Humidity_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:text="@string/HumidityStr" />
+
+        <TextView
+            android:id="@+id/Humidity"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+    <!-- 大气压强 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/Pressure_text_view"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/PressureStr" />
+
+        <TextView
+            android:id="@+id/Pressure"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+        <!-- 模式-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/mode_text_view"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/modeStr" />
+
+        <TextView
+            android:id="@+id/modeTv"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+    <!-- 圈数 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/Laps_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:text="@string/LapsStr" />
+
+        <TextView
+            android:id="@+id/Laps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="" />
+    </LinearLayout>
+    <!-- 总时间 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/TolTime_text_view"
+            android:layout_width="wrap_content"
+             android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/TolTimeStr" />
+
+        <TextView
+            android:id="@+id/TolTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="" />
+    </LinearLayout>
+    <!-- 平均单圈时间 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/AverageTime_text_view"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/AverageTimeStr" />
+        <TextView
+            android:id="@+id/AverageTime"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+    <!-- 最快单圈时间 -->
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/BestTime_text_view"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/BestTimeStr" />
+
+        <TextView
+            android:id="@+id/BestTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="" />
+    </LinearLayout>
+    <!-- 最快圈数 -->
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/BestLAP_text_view"
+            android:layout_width="wrap_content"
+             android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/BestLAPStr" />
+
+        <TextView
+            android:id="@+id/BestLAP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="" />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"
+	    android:background="@xml/background">
+	</LinearLayout>
+    <!-- 记录 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:background="@xml/padding"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/Remarks_text_view"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/RemarkStr" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginTop="5dp"
+        android:background="@xml/paddingtopiszero">
+        <EditText 
+            android:id="@+id/remarkEd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:text="@string/remarkDetailStr"
+            android:textColor="#696969"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:lineSpacingMultiplier="1.2"
+            android:background="@xml/edittextnopadding"
+            android:textSize="18sp"/>
+      </LinearLayout>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"
+	    android:background="@xml/background">
+	</LinearLayout>
+    <!-- 曲线图 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginTop="0dp"
+        android:background="@xml/padding">
+        <TextView
+            android:id="@+id/SpeedCurve"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/SpeedCurveStr" />
+         <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="0dp"/>
+    </LinearLayout>
+     <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="10dp"
+	    android:background="@xml/background">
+	</LinearLayout>
+    <!--详细信息  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginTop="0dp">
+         <LinearLayout
+         android:layout_width="match_parent"
+	     android:layout_height="30dp"
+	     android:background="@xml/padding">
+        <TextView
+            android:id="@+id/DetailedResults"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:textSize="12sp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/DetailedResultStr" />
+         </LinearLayout>
+
+       <com.example.bluetooth.list.MyListView
+	        android:id="@+id/DetailedResultsListView"
+	        android:layout_width="match_parent"
+            android:textSize="18sp"
+	        android:layout_height="wrap_content"
+	        android:dividerHeight="0.5dp" 
+	        android:orientation="vertical"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

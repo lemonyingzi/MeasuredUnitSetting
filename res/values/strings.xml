@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">测量单元设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    
+    <string name="ready">准备</string>
+    <string name="unlogin">未登录</string>
+    <string name="logined">已登录</string>
+    <string name="connected">已连接</string>
+    <string name="unconnected">未连接</string>
+    <string name="connectting">正在连接</string>
+    <string name="device">设备:</string>
+    <string name="displacementLevel">深层水平位移</string>
+    <string name="back">＜</string>
+    <string name="backStr">返回</string>
+    <string name="userLogin">用户登录</string>
+    <string name="userName">用户名</string>
+    <string name="inputUserName">请输入用户名</string>
+    <string name="inputPassword">请输入密码</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="loginSuccess">登录成功</string>
+    <string name="loginFail">登录失败</string>
+    <string name="forgetPassword">忘记密码</string>
+    <string name="enterPhoneNumber">请输入手机号</string>
+    <string name="enterVerifyCode">请输入验证码</string>
+    <string name="sendMessageGetVerifyCode">获取验证码</string>
+    <string name="resetPassword">重置密码</string>
+    <string name="confirm">确定</string>
+    <string name="enterNewPassword">请输入新的密码</string>
+    <string name="repeatePassword">重复新密码</string>
+    <string name="passwordInstructions">密码必须是6位（含）以上任意数字、字母或者符号</string>
+    <string name="resetPasswordSuccess">重置密码成功请返回重新登录</string>
+    
+    <string name="setters">设置器</string>
+    <string name="setting">设置</string>
+    <string name="hydraulicLevel">液压水准</string>
+    <string name="chooseFunction">选择功能：</string>
+    <string name="test">测试</string>
+    <string name="measureUnitQuery">测量单元查询</string>
+    <string name="monitoringNetwork">监测网</string>
+    <string name="hydraulicmeasureunitsetting">液压水准测量单元设置</string>
+    <string name="newMonitoringNetwork">新监测网</string>
+    <string name="chooseMonitoringNetwork">选择监测网：</string>
+     <string name="chooseMonitoringNetworkLongPressRemovable">选择监测网（长按可删除）：</string>
+    <string name="projectNumber">工程编号</string>
+    <string name="monitoringNetworkBasePara">监测网基本参数：</string>
+    <string name="projectNameOrProjectNumber">工程名称/工程编号</string>
+    <string name="monitoringNetworkNumber">监测网编号</string>
+    <string name="measureUnitTotalNumber">测量单元总数</string>
+    <string name="state">状态</string>
+    <string name="connectedWaitingSettings">已连接，等待设置。</string>
+    <string name="settingPara">设置参数：</string>
+    <string name="unitID">测量单元ID</string>
+    <string name="serialNumber">序号</string>
+    <string name="serialNumberStr">序号:</string>
+    <string name="measureNumber">测点编号</string>
+    <string name="measureNumberStr">测点编号:</string>
+    <string name="measureType">测点类型</string>
+    <string name="measureTypeStr">测点类型:</string>
+    <string name="hydraulictest">液压水准测试</string>
+    <string name="singleMeasurementUnitTest">单个测量单元测试</string>
+    <string name="measureNetworkTest">监测网测试</string>
+    <string name="hydraulicLevelUnitTest">液压水准测量单元测试</string>
+    <string name="connectMeasureUnit">连接测量单元...</string>
+    <string name="connectMeasureUnitOK">连接测量单元...OK </string>
+    <string name="collecting">正在采集数据...</string>
+    <string name="collectingOK">正在采集数据...OK</string>
+    <string name="waitDataBack">等待数据返回...</string>
+    <string name="waitDataBackOK">等待数据返回...OK</string>
+    <string name="waitDataBackOverTime">等待数据返回...超时</string>
+    <string name="waitDataBackLock">等待数据返回...锁定</string>
+    <string name="waitDataBackUnauthorizedProduct">等待数据返回...非授权产品</string>
+    <string name="waitDataBackTypeError">等待数据返回...设备类型错误</string>
+    <string name="noHydraulic">该产品不是液压水准</string>
+    <string name="useCorrectProduct">请使用正确的产品</string>
+    <string name="hydraulimonitornetworktest">液压水准监测网测试</string>
+    <string name="chooseMonitorNetwork">选择监测网：</string>
+    <string name="connectCableStart">请连接电缆后开始</string>
+    <string name="start">开始</string>
+    <string name="measurePointTotalNumber">测点总数</string>
+    <string name="measurementUnitHasBeenSetted">已设置测量单元</string>
+    <string name="tryConnectMeasurementUnit">尝试连接测量单元...</string>
+    <string name="tryConnectMeasurementUnitOK">尝试连接测量单元...OK</string>
+    
+    <string name="ID">ID</string>
+    <string name="IDStr">ID:</string>
+    <string name="tryCollectData">尝试采集数据...</string>
+    <string name="tryCollectDataOK">尝试采集数据...OK</string>
+    
+    <string name="preassure">压力</string>
+    <string name="temperature">温度:</string>
+    <string name="temperatureStr">温度</string>
+    <string name="testResult">测试结果:</string>
+    <string name="degree">℃</string>
+    <string name="allMeasurementUnitsNormal">所有测量单元正常</string>
+    <string name="hydraulicLevelUnitQuery">液压水准测量单元查询</string>
+    <string name="conntentMeasueUnit">请连接测量单元</string>
+    <string name="sweepCodeCheck">扫码查</string>
+    <string name="manualCheck">手动查</string>
+    <string name="queryingpleasewait">正在查询请稍候</string>
+    <string name="inputId">请输入ID</string>
+   	<string name="measurementUnitLocked">测量单元被锁定</string> 
+   	<string name="contactFactory">请与厂家联系</string>
+    <string name="noDeviceUsageRights">无设备使用权限</string>
+    <string name="useLicensedProduct">请使用正品授权产品，谢谢配合。</string>
+    
+    <!-- 蓝牙 -->
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="ble_not_supported">本设备不支持BLE</string>
+     <string name="deviceNotConnect">设备没有连接</string>
+     <string name="name">名称</string>
+     <string name="address">地址</string>
+     
+     <!-- 液压 -->
+     <string name="numberAndPercent">0123456789.</string>
+     <string name="measurementUnitsNumberCannotLessThan2">测量单元总数不能小于2</string>
+     <string name="alreadyExist">已存在</string>
+     <string name="errorMeasuringUnitConnection"> 测量单元连接错误。</string>
+     
+     <string name="benchmark">基准点</string>
+     <string name="commonMeasurePoint">普通测点</string>
+     <string name="hydraulicMonitorNetwork">液压水准监测网</string>
+     <string name="monitorNetworkDetails">监测网详细信息：</string>
+     <string name="settingSuccess">设置完成</string>
+     <string name="yes">是</string>
+     <string name="no">否</string>
+     <string name="deleteFollowMonitorNetwork">您即将删除以下监测网：</string>
+     <string name="delete">删除</string>
+     <string name="cancel">取消</string>
+     <string name="UnrecoverableAfterDeletion">删除后不可恢复，是否删除？</string>
+     
+     <!-- 手机验证 -->
+     <string name="incorrectPhoneNumber">手机号有误</string>
+     <string name="authenticationSuccess">验证成功</string>
+     <string name="verificationCodeHasBeenSent">验证码已发送</string>
+     <string name="submitErrorMessage">提交错误信息</string>
+     
+     <string name="lastOne">上一个</string>
+     <string name="next">下一个</string>
+     <string name="measurementUnitNotConnected">测量单元未连接</string>
+     <string name="noInputMeasurePointNumber">未输入测点编号</string>
+     <string name="measurePointNumAlreadyExist">测点编号已存在</string>
+     <string name="measurePointNumAlreadyExisConnect">该测量单元已存在，继续？</string>
+    <string name="serialNumberAlreadyExisConnect">序号已存在，继续？</string>
+    <string name="serialNumberAndMeasurePointNumAlreadyExist">序号和测量单元ID已存在，继续？</string>
+
+    <string name="note">提示</string>
+     <string name="setupCompleted" > 设置完成，请更换测量单元后继续。</string>
+     <string name="measurementUnitNotReplaced">未更换测量单元</string>
+     <string name="serialNumberAlreadyExist">序号已存在</string>
+     <string name="benchmarkAlreadyExist">基准点已存在</string>
+     <string name="warn">警告！</string>
+     <string name="alreadySetted">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;已设置了</string>
+     <string name="lack">个测量单元，还缺</string>
+     <string name="numberMeasureUnit">个测量单元。   </string>
+     <string name="currentMonitoringNetworkSetupHasNotBeenCompleted">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;当前该监测网设置工作尚未完成，可能导致无法正常工作，请勿使用采集程序对其进行数据采集。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您可以暂时退出设置，稍等再继续。 </string>
+	 <string name="exit">退出</string>
+	 <string name="continueSet">继续设置</string>
+	 <string name="hasSetted">设置了</string>
+	 <string name="incorrectBaselineSettingLeadFailure">个基准点！\n
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;基准点设置不正确很可能导致无法正常工作，请勿使用采集程序对其进行数据采集。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您可以暂时退出设置，稍等再继续。
+    </string>
+	<string name="pressure">压力:</string>
+	<string name="mmwaterColumn">mm水柱</string>
+	<string name="normal">正常</string>
+	<string name="calibrationCoeff">标定系数：</string>
+	<string name="calibrationCoeffStr">标定系数</string>
+	
+	<string name="exception">异常</string>
+	<string name="retest">请重新进行测试，如果故障依旧，请联系厂家。</string>
+	<string name="measurementUnitInYourSelectedMonitoringNetworkIsNotCompleted">警告：\n
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您选择的监测网中测量单元设置未完成，继续测试有可能会导致数据错误甚至设备故障！\n
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;请确保没有接入未经设置的测量单元后继续。</string>
+    <string name="continuTest">继续测试</string>
+    <string name="measurementUnitsNumberTooHigh">警告：\n
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您选择的监测网内测量单元的数量过多！\n
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;由于设置器的数据处理能力有限，继续测试可能导致部分测量单元数据无法显示，建议直接使用“液压水准控制器”并连接采集软件进行测试。</string>
+	<string name="aboveMeasurementUnitAbnormal">以上测量单元异常</string>
+	<string name="measurementUnitNotSet">测量单元未设置</string>
+	<string name="remainingMeasurementUnitsAreNormal">其余测量单元正常。</string>
+	<string name="measurementUnitsTooMany">由于测量单元数量过多，可能部分数据丢失，列表内测量单元确保正常，测试结果仅供参考。</string>
+
+	<!-- 深层水平位移 -->
+	<string name="displacementmeasureunitsetting">深层水平位移测量单元设置</string>
+	<string name="monitorDepth">监测深度（米）</string>
+	<string name="depth">深度:</string>
+	<string name="depthStr">深度</string>
+	<string name="unitSpacing">测量单元间距（米）</string>
+	<string name="monitoringPoint">监测点</string>
+	<string name="newMonitoringPoint">新监测点</string>
+	<string name="chooseMonitoringPoint">选择监测点(长按可删除):</string>
+	<string name="chooseMonitoringPointStr">选择监测点:</string>
+	<string name="monitorPointTest">监测点测试</string>
+	<string name="monitoringPointBasePara">监测点基本参数:</string>
+	<string name="monitoringPointNumber">监测点编号</string>
+	<string name="monitorDepthExist">测点深度已存在</string>
+	<string name="displacementMonitorPoint">深层水平位移监测点</string>
+	<string name="monitorPointDetails">监测点详细信息:</string>
+	<string name="monitorUnitNumber">测量单元数量</string>
+	<string name="displacementTest">深层水平位移测试</string>
+	<string name="displacementMeasuedUnitTest">深层水平位移测量单元测试</string>
+	<string name="displacementMonitorPointTest">深层水平位移监测点测试</string>
+	<string name="X">X:</string>
+	<string name="Y">Y:</string>
+	<string name="Z">Z:</string>
+	<string name="XStr">X</string>
+	<string name="YStr">Y</string>
+	<string name="ZStr">Z</string>
+	<string name="displacementUnitQuery">深层水平位移测量单元查询</string>
+	<string name="settedCompleted">该监测网已设置完成</string>
+	<string name="serialNumberNull">序号为空</string>
+	<string name="measurePointNumNull">测点编号为空</string>
+	<string name="pleaseInputComplete">请填写完整</string>
+	<string name="deviceType">设备类型：</string>
+	<string name="authInfo">授权信息：</string>
+	<string name="produceDate">生产日期：</string>
+	<string name="hardwareVersion">固件版本：</string>
+	<string name="factoryInspection">出厂检验：</string>
+	<string name="precisionGrade">精度等级：</string>
+	<string name="caliSheet">校准信息表：</string>
+	<string name="conclusion">结论</string>
+	<string name="marginError">相对误差</string>
+	<string name="outputValue">输出值</string>
+	<string name="measurePoint">测量点</string>
+	<string name="error">误差</string>
+	<string name="measuredValue">测量值</string>
+	<string name="repetitionDiff">重复误差</string>
+	<string name="marginErrorSingle">重复允许误差</string>
+	<string name="repetitionConclusion">重复结论</string>
+	<string name="compareAngle">基准角度</string>
+	<string name="zaxisStr">测量角度</string>
+	<string name="relativeDiffStr">相对误差</string>
+	<string name="relativeConclusion">相对结论</string>
+	<string name="notFound">未找到该设备</string>
+	<string name="checkResult">查询结果</string>
+	<string name="requestFail">请求失败</string>
+	<string name="passwordIsNull">密码为空</string>
+	<string name="passwordLengthMustLangerThanSix">密码长度必须大于6</string>
+	<string name="twoPasswordsAreDifferent">两次输入的密码不相同</string>
+	<string name="resetFail">重置失败</string>
+	<string name="invalidToken">无效的token</string>
+	<string name="inputError">输入有误</string>
+    <string name="resend">重新发送</string>
+    <string name="getVerificationCode">获取验证码</string>
+    <string name="monitorDepthCannotBeLessThan1">监测深度不能小于1</string>
+    <string name="monitorDepthCannotBeGreaterThan100">监测深度不能大于100</string>
+    <string name="unitSpaceCannotBeLessThan0.5">测量单元间距不能小于0.5</string>
+    <string name="unitSpaceCannotBeGreaterThan5">测量单元间距不能大于5.0</string>
+    <string name="openCameraAccess">请在设置中打开相机使用权限</string>
+    <string name="unitSpaceCannotBeGreaterThanMonitorDepth">测量单元间距不能大于监测深度</string>
+    <string name="networkUnconnected">网络未连接</string>
+    <string name="hydraulicCode">1006</string>
+    <string name="displacementCode">1004</string>
+</resources>

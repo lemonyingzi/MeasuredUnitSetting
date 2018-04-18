@@ -1,0 +1,350 @@
+ <LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/mainll">
+   <!-- 顶部计时器 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="@dimen/abc_action_bar_default_padding_end_material" >
+
+        <TextView 
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp" 
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/timer"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+       <android.support.v4.widget.SwipeRefreshLayout
+           android:id="@+id/swipe_refresh"
+           android:layout_width="match_parent"
+           android:layout_height="510dp">
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                	 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+               
+                 	    
+            		<!-- 连接状态 -->
+			     <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="20dp"
+			        android:orientation="horizontal">
+			        <TextView
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="@string/label_state"
+			            android:textSize="18sp" 
+			            android:layout_marginStart="20dp"/>
+			        <TextView
+			            android:id="@+id/label_unconnected"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="@string/disconnected"
+			            android:textSize="16sp" />
+			    </LinearLayout>
+			     
+			        <!-- 同步状态 -->
+			    <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp"
+			        android:layout_marginBottom="20dp" >
+			        <TextView
+			            android:id="@+id/label_syncState"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="@string/labelsyncState"
+			            android:textSize="18sp" 
+			            android:layout_marginStart="20dp"/>
+			        <TextView
+			            android:id="@+id/syncState"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textSize="16sp" />
+			    </LinearLayout>
+			<LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="10dp"
+			    android:background="@xml/paddingsolid">
+			</LinearLayout>
+		    <!-- 赛道 -->
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:orientation="horizontal" 
+		        android:background="@xml/padding"
+		        android:layout_marginTop="0dp"
+		        android:focusable="true"  
+		        android:focusableInTouchMode="true"
+		        android:clickable="true"
+		        android:id="@+id/tracklinearlayout">
+		
+		        <TextView
+		            android:id="@+id/labeltrack"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/labeltrack"
+		            android:layout_gravity="center"
+		            android:gravity="center"
+		            android:textSize="18sp"
+		            android:layout_marginStart="20dp" />
+		     <RelativeLayout 
+		         android:layout_width="0dp"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center"
+		         android:layout_weight="1"
+		         android:layout_marginEnd="20dp">
+		            <TextView android:id="@+id/trackTextView"
+		                   android:layout_width="match_parent"
+		            	  android:layout_height="wrap_content"
+		            	  android:layout_alignParentEnd="true"
+		            	   android:textSize="18sp"
+		            	   android:gravity="end"
+		            	  android:layout_gravity="center">
+		            </TextView>
+		     </RelativeLayout>
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:orientation="horizontal" 
+		        android:background="@xml/paddingtopiszero"
+		        android:focusable="true"  
+		        android:focusableInTouchMode="true">
+		        <!-- 计时模式时间 -->
+		        <TextView
+		            android:id="@+id/timedModeTime"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/timedmodetime" 
+		            android:layout_gravity="center"
+		            android:gravity="center"
+		            android:textSize="18sp"
+		            android:layout_marginStart="20dp"/>
+		        <!-- 模式时间 -->
+		     <RelativeLayout 
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center"
+		         android:layout_marginEnd="20dp">
+		    	<EditText
+		            android:id="@+id/modeTime"
+		            android:layout_width="60dp"
+		            android:layout_alignParentEnd="true"
+		            android:layout_height="wrap_content"
+		            
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:hint=""
+		            android:imeOptions="actionDone"
+		            android:singleLine="true"
+		            android:background="@xml/edittextpadding"
+		            android:gravity="center"
+		            android:layout_gravity="center"/>
+		       </RelativeLayout>
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:orientation="horizontal"
+		        android:background="@xml/paddingtopiszero" 
+		        android:focusable="true"  
+		        android:focusableInTouchMode="true">
+		        <!-- 计时保护时间 -->
+		        <TextView
+		            android:id="@+id/timingProtectTime"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/timingprotecttime"
+		            android:layout_gravity="center"
+		            android:gravity="center"
+		            android:textSize="18sp" 
+		            android:layout_marginStart="20dp"/>
+		        <RelativeLayout 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:layout_marginEnd="20dp">
+		         <!-- 保护时间 -->
+		        <EditText
+		            android:id="@+id/protectTime"
+		            android:layout_width="60dp"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentEnd="true"
+		            android:textSize="18sp"
+		            android:inputType="number"
+		            android:hint=""
+		            android:imeOptions="actionDone"
+		            android:singleLine="true"
+		            android:gravity="center"
+		            android:background="@xml/edittextpadding"/>
+		        </RelativeLayout>
+		    </LinearLayout>
+		    <LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="10dp"
+			    android:background="@xml/background">
+			</LinearLayout>
+		     <!-- 启动限时模式 -->
+		     <LinearLayout android:id="@+id/start_time_mode"
+		          android:layout_width="match_parent"
+		          android:layout_height="50dp"
+		      	  android:text="@string/start_time_mode"
+		      	  android:orientation="horizontal"
+		      	  android:background="@xml/padding">
+		       	  <TextView android:id="@+id/start_time"
+		       	      android:layout_width="match_parent"
+		       	      android:layout_height="match_parent"
+		       	      android:text="@string/start_time_mode"
+		       	      android:layout_gravity="center"
+		       	      android:gravity="center_vertical"
+		       	      android:textSize="18sp"
+		       	      android:layout_marginStart="20dp">
+		       	  </TextView>
+		     </LinearLayout>
+		      <!-- 启动自由模式 -->
+		     <LinearLayout android:id="@+id/start_free_mode"
+		          android:orientation="horizontal"
+		       	  android:layout_width="match_parent"
+		       	  android:layout_height="50dp"
+		       	  android:text="@string/start_free_mode"
+		       	  android:background="@xml/paddingtopiszero">
+		     	<TextView android:id="@+id/start_free"
+		     	  	  android:layout_width="match_parent"
+		       	      android:layout_height="match_parent"
+		       	      android:text="@string/start_free_mode"
+		       	      android:layout_gravity="center"
+		       	      android:gravity="center_vertical"
+		       	      android:textSize="18sp"
+		       	      android:layout_marginStart="20dp">   	    
+		     	</TextView>
+			</LinearLayout>
+			<LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="10dp"
+			    android:background="@xml/background">
+			</LinearLayout>
+			<!-- 设置 -->
+		    <LinearLayout android:id="@+id/parasetting_layout"
+		          android:orientation="horizontal"
+		       	  android:layout_width="match_parent"
+		       	  android:layout_height="50dp"
+		       	  android:text="@string/start_free_mode"
+		       	  android:background="@xml/padding">
+		     	<TextView android:id="@+id/parasetting_textview"
+		     	  	  android:layout_width="match_parent"
+		       	      android:layout_height="match_parent"
+		       	      android:text="@string/setting"
+		       	      android:layout_gravity="center"
+		       	      android:gravity="center_vertical"
+		       	      android:textSize="18sp"
+		       	      android:layout_marginStart="20dp">   	    
+		     	</TextView>
+			</LinearLayout>
+		</LinearLayout>
+		
+            
+	</ScrollView>
+        
+ </android.support.v4.widget.SwipeRefreshLayout>
+       
+<!-- 底部排版 -->
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false"
+        android:background="@xml/padding"
+        android:orientation="horizontal">
+     	<LinearLayout
+     	    android:layout_width="0dp"
+     	    android:layout_height="match_parent"
+     	    android:id="@+id/bottomTimer"
+     	    android:layout_weight="1"
+     	    android:orientation="horizontal"
+     	    android:gravity="center">
+     	   <!-- 底部 定时器 -->
+     	   <TextView
+           android:text="@string/timer"
+           android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:textSize="18sp"
+		   android:layout_gravity="center_vertical"
+		   android:gravity="center_vertical"
+		   android:textColor="@color/colorPrimary"/>   
+     	</LinearLayout>
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+		   android:id="@+id/bottomResults"
+           android:layout_weight="1"
+           android:gravity="center">
+           		   <!-- 底部 成绩 -->
+		 	<TextView
+		       android:text="@string/statistics"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:textSize="18sp"
+		       android:layout_gravity="center_vertical"
+		   	   android:gravity="center"/>
+       </LinearLayout>
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		     android:id="@+id/bottomRanking"
+		    android:layout_weight="1"
+		    android:gravity="center">
+		     	   <!-- 底部 排名 -->
+		   	<TextView
+		       android:text="@string/ranking"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"	
+		       android:textSize="18sp"
+		       android:layout_gravity="center_vertical"
+		   	   android:gravity="center"/>
+		</LinearLayout>
+	
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		     android:id="@+id/bottomI"
+		    android:gravity="center">
+			  <TextView
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:text="@string/I"
+		       android:textSize="18sp" 
+		       android:layout_gravity="center_vertical"
+		       android:gravity="center"/>
+		</LinearLayout>
+    </LinearLayout>
+   </RelativeLayout>       
+</LinearLayout>

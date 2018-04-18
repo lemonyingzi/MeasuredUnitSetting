@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/zxing/activity/CaptureActivity.java=UTF-8
+encoding//src/zxing/camera/CameraConfigurationManager.java=UTF-8
+encoding//src/zxing/camera/CameraManager.java=UTF-8
+encoding//src/zxing/decode/DecodeFormatManager.java=UTF-8
+encoding//src/zxing/decode/DecodeHandler.java=UTF-8
