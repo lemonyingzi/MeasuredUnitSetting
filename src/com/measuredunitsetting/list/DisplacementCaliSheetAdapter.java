@@ -30,7 +30,7 @@ public class DisplacementCaliSheetAdapter  extends ArrayAdapter<DisplacementCali
 			viewHolder.repetitionDiffTv=(TextView) view.findViewById(R.id.repetitionDiffTv);
 			viewHolder.conclusionTv=(TextView) view.findViewById(R.id.conclusionTv);
 			viewHolder.compareAngleTv=(TextView) view.findViewById(R.id.compareAngleTv);
-			viewHolder.temperatureTv=(TextView) view.findViewById(R.id.temperatureTv);
+			viewHolder.delayDiffTv=(TextView) view.findViewById(R.id.delayDiffTv);
 			viewHolder.zaxisTv=(TextView) view.findViewById(R.id.zaxisTv);
 			viewHolder.relativeDiffTv=(TextView)view.findViewById(R.id.relativeDiffTv);
 			view.setTag(viewHolder);
@@ -42,7 +42,7 @@ public class DisplacementCaliSheetAdapter  extends ArrayAdapter<DisplacementCali
 		viewHolder.repetitionDiffTv.setText(result.getRepetitonDiff());
 		viewHolder.conclusionTv.setText(result.getConclusion());
 		viewHolder.compareAngleTv.setText(result.getCompareAngle());
-		viewHolder.temperatureTv.setText(result.getTemperature());
+		viewHolder.delayDiffTv.setText(result.getDelayDiff());
 		viewHolder.zaxisTv.setText(result.getZaxis());
 		viewHolder.relativeDiffTv.setText(result.getRelativeDiff());
 		return view;
@@ -56,7 +56,7 @@ public class DisplacementCaliSheetAdapter  extends ArrayAdapter<DisplacementCali
     	TextView conclusionTv;
 
     	TextView compareAngleTv;
-    	TextView temperatureTv;
+    	TextView delayDiffTv;
     	TextView zaxisTv;
     	TextView relativeDiffTv;
 

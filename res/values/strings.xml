@@ -236,8 +236,9 @@
 	<string name="repetitionConclusion">重复结论</string>
 	<string name="compareAngle">基准角度</string>
 	<string name="zaxisStr">测量角度</string>
-	<string name="relativeDiffStr">相对误差</string>
+	<string name="relativeDiffStr">线性误差</string>
 	<string name="relativeConclusion">相对结论</string>
+    <string name="delayDiffStr">滞后误差</string>
 	<string name="notFound">未找到该设备</string>
 	<string name="checkResult">查询结果</string>
 	<string name="requestFail">请求失败</string>

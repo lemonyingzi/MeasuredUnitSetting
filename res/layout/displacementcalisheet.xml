@@ -47,7 +47,7 @@
 
 	<!-- 温度 -->
 	<TextView
-		android:id="@+id/temperatureTv"
+		android:id="@+id/delayDiffTv"
 		android:layout_width="0dp"
 		android:layout_height="30dp"
 		android:layout_weight="1"

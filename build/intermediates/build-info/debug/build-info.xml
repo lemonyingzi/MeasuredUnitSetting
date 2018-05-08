@@ -2,42 +2,68 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1523955191125"
+    timestamp="1525749407078"
     token="7498152373916292865"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="2369" />
+        duration="10001" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="44" />
+        duration="861" />
     <task
         name="verifier"
-        duration="36" />
+        duration="632" />
 
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
     <artifact
         location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
         location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\outputs\apk\debug\MeasuredUnitSettingAS-debug.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1523949602080"
+        timestamp="1525749407078"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
         <artifact
             location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
@@ -46,9 +72,6 @@
             type="SPLIT" />
         <artifact
             location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -60,9 +83,6 @@
             location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
@@ -71,30 +91,15 @@
         <artifact
             location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\outputs\apk\debug\MeasuredUnitSettingAS-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1523955093398"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\outputs\apk\debug\MeasuredUnitSettingAS-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1523955191125"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\outputs\apk\debug\MeasuredUnitSettingAS-debug.apk"
-            type="SPLIT_MAIN" />
+            location="E:\lyProject\MeasureUnitSettingProject\MeasuredUnitSettingAS\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

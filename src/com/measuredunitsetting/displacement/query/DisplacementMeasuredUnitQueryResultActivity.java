@@ -97,15 +97,15 @@ public class DisplacementMeasuredUnitQueryResultActivity extends Activity {
 		try {
 			jsonArray = new JSONArray(jsonArrayStr);
 			List<DisplacementCaliSheet> caliSheets=new ArrayList<DisplacementCaliSheet>();
-			for (int i = 0; i < jsonArray.length(); i++) {     
-	            JSONObject item;
-	            item = jsonArray.getJSONObject(i);
-	            DisplacementCaliSheet dcs=new DisplacementCaliSheet(item.optString("CompareAngle"),item.optString("Zaxis"),
-	            		item.optString("RepetitionDiff"),item.optString("RelativeDiff"),item.optString("temperature"),
-	            		item.optString("conclusion"));
-	            caliSheets.add(dcs);
-	            LogUtil.i(TAG, dcs.getConclusion()+","+dcs.getCompareAngle()+","+dcs.getTemperature()	+","+dcs.getZaxis()+","+dcs.getRelativeDiff());
-	       }  
+			for (int i = 0; i < jsonArray.length(); i++) {
+				JSONObject item;
+				item = jsonArray.getJSONObject(i);
+				DisplacementCaliSheet dcs = new DisplacementCaliSheet(item.optString("CompareAngle"), item.optString("Zaxis"),
+						item.optString("RepetitionDiff"), item.optString("RelativeDiff"), item.optString("DelayDiff"),
+						item.optString("conclusion"));
+				caliSheets.add(dcs);
+				LogUtil.i(TAG, dcs.getConclusion() + "," + dcs.getCompareAngle() + "," + dcs.getTemperature() + "," + dcs.getZaxis() + "," + dcs.getRelativeDiff());
+			}
 			displacementCaliSheetAdapter=new DisplacementCaliSheetAdapter(DisplacementMeasuredUnitQueryResultActivity.this, R.layout.displacementcalisheet, caliSheets);
 			caliSheetListTv.setAdapter(displacementCaliSheetAdapter);
 		} catch (JSONException e) {
