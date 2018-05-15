@@ -506,48 +506,83 @@ public class DisplacementMeasuredUnitSettingThreeActivity extends Activity {
 			  		//用户设定
 			  		else if (diffPosition==18) {
 		  				LogUtil.i(TAG, "头尾正确");
-		  				//序号
-		  				String serialNumberStr=data2.substring(6+headPosition,10+headPosition);
-		  				byte[] serialNumberByte=publicMethod.HexStringToByteArray(serialNumberStr);
-		  				int serialNumber=serialNumberByte[0]*256+serialNumberByte[1];
-		  			
-						SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式		
-						String time=df.format(new Date());
-						measurePointNumSetted=measuredUnitId;
-						
-						String depthStr=data2.substring(10+headPosition,16+headPosition);
-						byte[] depthByte=publicMethod.HexStringToByteArray(depthStr);
-						float depth=Float.parseFloat(String.valueOf(depthByte[0])+String.valueOf(depthByte[1])+"."+String.valueOf(depthByte[2]));
-						
-						DisplacementMeasuredUnit hydraulicMeasuredUnit=new DisplacementMeasuredUnit(monitorPoint.getId(), serialNumber, measuredUnitId, depth, time);
-		  				displacementMeasuredUnitDB.insert(hydraulicMeasuredUnit);
+		  				//20180515传感器未解锁
+		  				String stateStr=data2.substring(16+headPosition,18+headPosition);
+		  				if(stateStr!=null && stateStr.equals("00"))
+						{
+							//序号
+							String serialNumberStr=data2.substring(6+headPosition,10+headPosition);
+							byte[] serialNumberByte=publicMethod.HexStringToByteArray(serialNumberStr);
+							int serialNumber=serialNumberByte[0]*256+serialNumberByte[1];
 
-		  				connectedWaitingSettingTv.setText(R.string.setupCompleted);
-			  			
-			  			int serialNumberInt=Integer.parseInt(serialNumberTv.getText().toString());
-						float nextDepth=depth-monitorPoint.getUnitSpacing();
-						serialNumberInt--;
-						if (serialNumberInt>=1) {
-							serialNumberTv.setText(String.valueOf(serialNumberInt));
-							monitorDepthTextView.setText(String.valueOf(nextDepth));
-							if (serialNumber==1) {
-								lastLl.setBackgroundResource(R.xml.paddingbackgroundgrayleft2dp);
+							SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+							String time=df.format(new Date());
+							measurePointNumSetted=measuredUnitId;
+
+							String depthStr=data2.substring(10+headPosition,16+headPosition);
+							byte[] depthByte=publicMethod.HexStringToByteArray(depthStr);
+							float depth=Float.parseFloat(String.valueOf(depthByte[0])+String.valueOf(depthByte[1])+"."+String.valueOf(depthByte[2]));
+
+							DisplacementMeasuredUnit hydraulicMeasuredUnit=new DisplacementMeasuredUnit(monitorPoint.getId(), serialNumber, measuredUnitId, depth, time);
+							displacementMeasuredUnitDB.insert(hydraulicMeasuredUnit);
+
+							connectedWaitingSettingTv.setText(R.string.setupCompleted);
+
+							int serialNumberInt=Integer.parseInt(serialNumberTv.getText().toString());
+							float nextDepth=depth-monitorPoint.getUnitSpacing();
+							serialNumberInt--;
+							if (serialNumberInt>=1) {
+								serialNumberTv.setText(String.valueOf(serialNumberInt));
+								monitorDepthTextView.setText(String.valueOf(nextDepth));
+								if (serialNumber==1) {
+									lastLl.setBackgroundResource(R.xml.paddingbackgroundgrayleft2dp);
+								}
+								else
+								{
+									lastLl.setBackgroundResource(R.xml.paddingbackgroundwhiteleft2dp);
+								}
 							}
-							else
-							{
-								lastLl.setBackgroundResource(R.xml.paddingbackgroundwhiteleft2dp);
+							if (paraUploadtimer==null) {
+								paraUploadtimer=new Timer();
+								paraUploadtimer.schedule(new paraUploadTimerTask(), 500, 1000); // 1s后执行task,经过1000ms再次执行
 							}
+							if (stateMonitorTimer==null) {
+								stateMonitorTimer=new Timer();
+								stateMonitorTimer.schedule(new monitorStateTimerTask(), 500,1200);//0.5s后执行task,经过1000s再次执行
+							}
+							data2="";
+							measureUnitIsSetted=true;
 						}
-			  			if (paraUploadtimer==null) {
-			  				paraUploadtimer=new Timer();
-				  		    paraUploadtimer.schedule(new paraUploadTimerTask(), 500, 1000); // 1s后执行task,经过1000ms再次执行  
+						else
+						{
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.setupFail),Toast.LENGTH_SHORT).show();
+							measureUnitIsSetted=false;
+							data2="";
 						}
-			  			if (stateMonitorTimer==null) {
-			  			    stateMonitorTimer=new Timer();
-				  			stateMonitorTimer.schedule(new monitorStateTimerTask(), 500,1200);//0.5s后执行task,经过1000s再次执行
-						}
-						data2="";
-						measureUnitIsSetted=true;
+//		  				else if(state=="01")//设备类型代码错误
+//						{
+//							Toast.makeText(getApplicationContext(), getResources().getString(R.string.deviceCodeError),Toast.LENGTH_SHORT).show();
+//							measureUnitIsSetted=false;
+//							data2="";
+//						}
+//						else if(state=="02")//检测机构代码错误
+//						{
+//							Toast.makeText(getApplicationContext(), getResources().getString(R.string.examOrganCodeError),Toast.LENGTH_SHORT).show();
+//							measureUnitIsSetted=false;
+//							data2="";
+//						}
+//						else if(state=="03")//传感器锁定
+//						{
+//							Toast.makeText(getApplicationContext(), getResources().getString(R.string.sensorLockError),Toast.LENGTH_SHORT).show();
+//							measureUnitIsSetted=false;
+//							data2="";
+//						}
+//						else if(state=="04")//传感器故障
+//						{
+//							Toast.makeText(getApplicationContext(), getResources().getString(R.string.sensorError),Toast.LENGTH_SHORT).show();
+//							measureUnitIsSetted=false;
+//							data2="";
+//						}
 					}
 					else
 					{
@@ -578,7 +613,7 @@ public class DisplacementMeasuredUnitSettingThreeActivity extends Activity {
 
 	private  void back()
 	{
-		//判断序号最大值是否为总测流量单元个数
+		//判断序号最大值是否为总测量单元个数
 		long count=displacementMeasuredUnitDB.selectCountAccordingToMonitorNetworkNumberId(monitorPoint.getId());
 		int totalCount=(int) (monitorPoint.getMonitorDepth()/monitorPoint.getUnitSpacing());
 		//没有设置完成

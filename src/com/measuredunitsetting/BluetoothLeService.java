@@ -119,10 +119,6 @@ public class BluetoothLeService extends Service {
         return b2;
     }
     
-    
-    
-    
-    
     byte[] WriteBytes = new byte[20];
 	public void txxx(String g){
 		g=""+g;

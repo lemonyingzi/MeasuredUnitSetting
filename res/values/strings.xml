@@ -156,6 +156,7 @@
      <string name="measurementUnitNotReplaced">未更换测量单元</string>
      <string name="serialNumberAlreadyExist">序号已存在</string>
      <string name="benchmarkAlreadyExist">基准点已存在</string>
+    <string name="setupFail">设置失败</string>
      <string name="warn">警告！</string>
      <string name="alreadySetted">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;已设置了</string>
      <string name="lack">个测量单元，还缺</string>
@@ -259,4 +260,8 @@
     <string name="networkUnconnected">网络未连接</string>
     <string name="hydraulicCode">1006</string>
     <string name="displacementCode">1004</string>
+    <string name="deviceCodeError">设备代码错误！</string>
+    <string name="examOrganCodeError">检测机构代码错误！</string>
+    <string name="sensorLockError">传感器锁定状态！</string>
+    <string name="sensorError">传感器故障！</string>
 </resources>

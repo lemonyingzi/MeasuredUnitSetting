@@ -518,9 +518,14 @@ public class HydraulicMeasuredUnitSettingThreeActivity extends Activity {
 							}
 							measureUnitIsSetted=true;
 						}
-						else if (stateStr!=null && stateStr.equals("01")) {
-							
+						else
+						{
+							Toast.makeText(getApplicationContext(), getResources().getString(R.string.setupFail),Toast.LENGTH_SHORT).show();
+							measureUnitIsSetted=false;
 						}
+//						else if (stateStr!=null && stateStr.equals("01")) {
+//
+//						}
 						data2="";
 					}
 					else if (tailPosition-headPosition!=62 || tailPosition-headPosition!=30) {

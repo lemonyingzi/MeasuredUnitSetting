@@ -416,6 +416,7 @@
     <string name="depth">深度:</string>
     <string name="depthStr">深度</string>
     <string name="device">设备:</string>
+    <string name="deviceCodeError">设备代码错误！</string>
     <string name="deviceNotConnect">设备没有连接</string>
     <string name="deviceType">设备类型：</string>
     <string name="displacementCode">1004</string>
@@ -432,6 +433,7 @@
     <string name="error">误差</string>
     <string name="errorMeasuringUnitConnection"> 测量单元连接错误。</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="examOrganCodeError">检测机构代码错误！</string>
     <string name="exception">异常</string>
     <string name="exit">退出</string>
     <string name="factoryInspection">出厂检验：</string>
@@ -550,6 +552,8 @@
     <string name="retest">请重新进行测试，如果故障依旧，请联系厂家。</string>
     <string name="search_menu_title">Search</string>
     <string name="sendMessageGetVerifyCode">获取验证码</string>
+    <string name="sensorError">传感器故障！</string>
+    <string name="sensorLockError">传感器锁定状态！</string>
     <string name="serialNumber">序号</string>
     <string name="serialNumberAlreadyExisConnect">序号已存在，继续？</string>
     <string name="serialNumberAlreadyExist">序号已存在</string>
@@ -562,6 +566,7 @@
     <string name="settingPara">设置参数：</string>
     <string name="settingSuccess">设置完成</string>
     <string name="setupCompleted"> 设置完成，请更换测量单元后继续。</string>
+    <string name="setupFail">设置失败</string>
     <string name="singleMeasurementUnitTest">单个测量单元测试</string>
     <string name="start">开始</string>
     <string name="state">状态</string>
