@@ -532,8 +532,6 @@ public class DisplacementMeasuredUnitTestActivity extends Activity {
 						data2="";
 					}
 				}
-		  	
-		  	
 	  		}
 	  		catch(IndexOutOfBoundsException ex)
 	  		{

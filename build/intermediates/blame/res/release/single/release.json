@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -96,12 +96,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_activity_displacementmeasuredunitquery.xml.flat",
-        "source": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\res\\layout\\activity_displacementmeasuredunitquery.xml"
-    },
-    {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\color_switch_thumb_material_dark.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_activity_displacementmeasuredunitquery.xml.flat",
+        "source": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\res\\layout\\activity_displacementmeasuredunitquery.xml"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_displacementcalisheet.xml.flat",
@@ -204,12 +204,12 @@
         "source": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\res\\layout\\activity_hydraulicmeasuredunittwosetting.xml"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_abc_action_menu_layout.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_abc_action_menu_layout.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_activity_forgetpassword.xml.flat",
@@ -280,16 +280,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\color-v23_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -332,12 +332,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\color_abc_primary_text_disable_only_material_light.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\anim_abc_slide_out_top.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -352,12 +352,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-v21_abc_btn_colored_material.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-v21_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -456,12 +456,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_notification_action.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_abc_screen_toolbar.xml.flat",
@@ -508,12 +508,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_abc_action_mode_bar.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\color_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\layout_abc_action_mode_bar.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -552,12 +552,12 @@
         "source": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\res\\layout\\measureunit_item_head.xml"
     },
     {
-        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "E:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",

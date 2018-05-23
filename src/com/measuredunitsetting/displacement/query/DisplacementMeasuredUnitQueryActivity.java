@@ -310,7 +310,7 @@ public class DisplacementMeasuredUnitQueryActivity extends Activity {
 			  		
 			  		}
 			  		//错误代码
-			  		else if (tailPosition-headPosition==20) {
+			  		else if (tailPosition-headPosition==18) {
 						String stateStr=data2.substring(headPosition+16,headPosition+18);
 						if (stateStr!=null && stateStr.equals("01")) {//设备类型错误
 							

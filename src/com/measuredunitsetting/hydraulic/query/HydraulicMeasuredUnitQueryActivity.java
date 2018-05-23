@@ -276,7 +276,7 @@ public class HydraulicMeasuredUnitQueryActivity extends Activity {
 						return;
 					}
 		  			//参数上传
-			  		if (tailPosition-headPosition==62) {
+			  		if (tailPosition-headPosition==74) {
 				  		if(headPosition!=-1 && tailPosition!=-1)
 				  		{
 				  			LogUtil.i(TAG, "头尾正确");
@@ -301,8 +301,8 @@ public class HydraulicMeasuredUnitQueryActivity extends Activity {
 							data2="";
 						}
 				  		//错误代码
-				  		else if (tailPosition-headPosition==28) {
-							String stateStr=data2.substring(headPosition+26,headPosition+28);
+				  		else if (tailPosition-headPosition==30) {
+							String stateStr=data2.substring(headPosition+28,headPosition+30);
 							if (stateStr!=null && stateStr.equals("01")) {//设备类型错误
 								
 							}

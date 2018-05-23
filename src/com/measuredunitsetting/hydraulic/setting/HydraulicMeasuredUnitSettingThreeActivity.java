@@ -449,7 +449,7 @@ public class HydraulicMeasuredUnitSettingThreeActivity extends Activity {
 						return;
 					}
 		  			//参数上传
-			  		if (tailPosition-headPosition==62) {
+			  		if (tailPosition-headPosition==74) {
 				  		if(headPosition!=-1 && tailPosition!=-1)
 				  		{
 				  			//id
@@ -528,7 +528,7 @@ public class HydraulicMeasuredUnitSettingThreeActivity extends Activity {
 //						}
 						data2="";
 					}
-					else if (tailPosition-headPosition!=62 || tailPosition-headPosition!=30) {
+					else if (tailPosition-headPosition!=74 || tailPosition-headPosition!=30) {
 						connectedWaitingSettingTv.setText(R.string.errorMeasuringUnitConnection);
 						data2="";
 					}

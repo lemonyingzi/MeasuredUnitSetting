@@ -28,10 +28,10 @@ public class HydraulicCaliSheetAdapter  extends ArrayAdapter<HydraulicCaliSheet>
 			view=LayoutInflater.from(getContext()).inflate(resourceId, parent,false);
 			viewHolder=new ViewHolder();
 			viewHolder.conclusionTv=(TextView) view.findViewById(R.id.conclusionTv);
-			viewHolder.marginErrorTv=(TextView) view.findViewById(R.id.marginErrorTv);
+//			viewHolder.marginErrorTv=(TextView) view.findViewById(R.id.marginErrorTv);
 			viewHolder.outputValueTv=(TextView) view.findViewById(R.id.outputValueTv);
 			viewHolder.measurePointTv=(TextView)view.findViewById(R.id.measurePointTv);
-			viewHolder.temperatureTv=(TextView) view.findViewById(R.id.temperatureTv);
+//			viewHolder.temperatureTv=(TextView) view.findViewById(R.id.temperatureTv);
 			viewHolder.errorTv=(TextView) view.findViewById(R.id.errorTv);
 			viewHolder.measuredValueTv=(TextView) view.findViewById(R.id.measuredValueTv);
 			viewHolder.coeffTv=(TextView) view.findViewById(R.id.coeffTv);
@@ -43,11 +43,11 @@ public class HydraulicCaliSheetAdapter  extends ArrayAdapter<HydraulicCaliSheet>
 			viewHolder=(ViewHolder) view.getTag();
 		}
 		viewHolder.conclusionTv.setText(result.getConclusion());
-		viewHolder.marginErrorTv.setText(result.getMarginError());
+//		viewHolder.marginErrorTv.setText(result.getMarginError());
 		viewHolder.outputValueTv.setText(result.getOutputValue());
 		viewHolder.measurePointTv.setText(result.getMeasurePoint());
-		viewHolder.temperatureTv.setText(result.getTemperature());
-		viewHolder.errorTv.setText(result.getError());
+//		viewHolder.temperatureTv.setText(result.getTemperature());
+		viewHolder.errorTv.setText(result.getError().toString());
 		viewHolder.measuredValueTv.setText(result.getMeasuredValue());
 		viewHolder.coeffTv.setText(result.getCoeff());
 		return view;

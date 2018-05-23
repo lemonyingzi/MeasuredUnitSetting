@@ -170,9 +170,8 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 	              Message message = new Message();  
 	              message.what = 1;  
 	              handler.sendMessage(message);  
-	          }  
-	    	
-	    };
+	          }
+	    }
 	    int count=0;
 	    class monitorParaUploadTimerTask extends TimerTask
 	    {
@@ -195,8 +194,7 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 	            
 	          }  
 	    	
-	    };
-	    
+	    }
 
 		//发送蓝牙指令
 	    Handler handler = new Handler() {  
@@ -214,7 +212,6 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 					}
 				}
 	        	else if (msg.what==3) {//采集时间到，判断采集结
-	        		
 
 	        		if (monitorParaUploadTimer!=null) {
 						monitorParaUploadTimer.cancel();
@@ -250,7 +247,6 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 								HydraulicMeasuredUnit hmu=measureUnitList.get(i);
 								serialNumberList.add(hmu.getSerialNumber());
 							}
-							
 							if (serialNumberList!=null && serialNumberList.size()!=0) 
 							{
 								for(int i=1;i<=monitorNetwork.getTotalUnitNumber();i++)
@@ -264,60 +260,49 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 						}
 	        			//
 	        			if (serialNumberLackList!=null && serialNumberLackList.size()!=0) {
-	        				List<HydraulicMeasuredUnit> serialNumberLackSettedList=new ArrayList<HydraulicMeasuredUnit>();//设置好的测量单元没有接收到数据
-	        				List<Integer> serialNumberLackUnsettedList=new ArrayList<Integer>();
-	        				
+							List<HydraulicMeasuredUnit> serialNumberLackSettedList = new ArrayList<HydraulicMeasuredUnit>();//设置好的测量单元没有接收到数据
+							List<Integer> serialNumberLackUnsettedList = new ArrayList<Integer>();
+
 							//设置好的测量单元没有接收到数据
-	        				for(int i=0;i<serialNumberLackList.size();i++)
-							{
-								HydraulicMeasuredUnit hydraulicMeasuredUnit=hydraulicMeasuredUnitDB.selectMeasureUnitsAccordingToSerialNumber(monitorNetwork.getId(), serialNumberLackList.get(i));
-								if (hydraulicMeasuredUnit!=null) {
+							for (int i = 0; i < serialNumberLackList.size(); i++) {
+								HydraulicMeasuredUnit hydraulicMeasuredUnit = hydraulicMeasuredUnitDB.selectMeasureUnitsAccordingToSerialNumber(monitorNetwork.getId(), serialNumberLackList.get(i));
+								if (hydraulicMeasuredUnit != null) {
 									serialNumberLackSettedList.add(hydraulicMeasuredUnit);//设置好的测量单元没有接受到数据
-								}
-								else {
+								} else {
 									serialNumberLackUnsettedList.add(serialNumberLackList.get(i));//没有设置该测量单元
 								}
 							}
-							String lackInformation="";
+							String lackInformation = "";
 
-							if (serialNumberLackSettedList!=null && serialNumberLackSettedList.size()!=0) {
-	        					measuredUnitAdapters=new MeasuredUnitAdapter(HydraulicMonitorNetworkTestTwoActivity.this, R.layout.measureunit_item, serialNumberLackSettedList);
-	        				    View vHead=View.inflate(HydraulicMonitorNetworkTestTwoActivity.this, R.layout.measureunit_item_head, null);
-	        				    measureUnitFailLv=(ListView) findViewById(R.id.measureUnitFailLv);
-	        				    measureUnitFailLv.addHeaderView(vHead);
-	        				    measureUnitFailLv.setAdapter(measuredUnitAdapters);
-	        				    lackInformation=getResources().getString(R.string.aboveMeasurementUnitAbnormal)+"\r\n";
+							if (serialNumberLackSettedList != null && serialNumberLackSettedList.size() != 0) {
+								measuredUnitAdapters = new MeasuredUnitAdapter(HydraulicMonitorNetworkTestTwoActivity.this, R.layout.measureunit_item, serialNumberLackSettedList);
+								View vHead = View.inflate(HydraulicMonitorNetworkTestTwoActivity.this, R.layout.measureunit_item_head, null);
+								measureUnitFailLv = (ListView) findViewById(R.id.measureUnitFailLv);
+								measureUnitFailLv.addHeaderView(vHead);
+								measureUnitFailLv.setAdapter(measuredUnitAdapters);
+								lackInformation = getResources().getString(R.string.aboveMeasurementUnitAbnormal) + "\r\n";
 							}
 							//有没有设置的测量单元
-							if (serialNumberLackUnsettedList!=null && serialNumberLackUnsettedList.size()!=0) {
-								String serialNumberStr="";
-								for(int i=0;i<serialNumberLackUnsettedList.size();i++)
-								{
-									serialNumberStr=serialNumberStr+" "+serialNumberLackUnsettedList.get(i);
+							if (serialNumberLackUnsettedList != null && serialNumberLackUnsettedList.size() != 0) {
+								String serialNumberStr = "";
+								for (int i = 0; i < serialNumberLackUnsettedList.size(); i++) {
+									serialNumberStr = serialNumberStr + " " + serialNumberLackUnsettedList.get(i);
 								}
-								lackInformation=lackInformation+getResources().getString(R.string.serialNumberStr)+serialNumberStr+getResources().getString(R.string.measurementUnitNotSet)+"\r\n"+getResources().getString(R.string.remainingMeasurementUnitsAreNormal);
+								lackInformation = lackInformation + getResources().getString(R.string.serialNumberStr) + serialNumberStr + getResources().getString(R.string.measurementUnitNotSet) + "\r\n" + getResources().getString(R.string.remainingMeasurementUnitsAreNormal);
 							}
 							//没有没设置的测量单元
-							else
-							{
-								lackInformation=lackInformation+getResources().getString(R.string.remainingMeasurementUnitsAreNormal);
+							else {
+								lackInformation = lackInformation + getResources().getString(R.string.remainingMeasurementUnitsAreNormal);
 							}
-							
-		        			if (monitorNetwork.getTotalUnitNumber()>37) {
-								lackInformation=lackInformation+"\r\n"+getResources().getString(R.string.measurementUnitsTooMany);
+							if (monitorNetwork.getTotalUnitNumber() > 37) {
+								lackInformation = lackInformation + "\r\n" + getResources().getString(R.string.measurementUnitsTooMany);
 							}
 							testResultTv.setText(lackInformation);
-
 						}
-	        		
-	        			
 					}
-	        	
-	        
 				}
-	        	
 	            super.handleMessage(msg);  
-	        };  
+	        }
 	    };  
 	    
 	    
@@ -355,9 +340,7 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 			    }  
 		  }
 		  catch (Exception e) {
-			  	
 				LogUtil.e(TAG, e.toString());
-				
 			}
 	}
     /**
@@ -430,7 +413,6 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
     @SuppressWarnings("unused")
 	@SuppressLint("NewApi")
 	private void displayData( String data1 ) {
-    	
 	  	if( data1!=null)
     	{
 	  		try
@@ -449,7 +431,7 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 						return;
 					}
 		  			//参数上传
-			  		if (tailPosition-headPosition==62) {
+			  		if (tailPosition-headPosition==74) {
 				  		if(headPosition!=-1 && tailPosition!=-1)
 				  		{
 				  			LogUtil.i(TAG, "头尾正确");
@@ -466,7 +448,6 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 			  				String measureType;
 			  				if (measureTypeStr!=null && measureTypeStr.equals("A0")) {
 				  				measureType=getResources().getString(R.string.benchmark);
-
 							}
 			  				else if (measureTypeStr!=null && measureTypeStr.equals("B0")) {
 								measureType=getResources().getString(R.string.commonMeasurePoint);
@@ -514,8 +495,6 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 		  				else if (measureTypeStr!=null && measureTypeStr.equals("B0")) {
 							measureType=getResources().getString(R.string.commonMeasurePoint);
 						}
-		  				
-		  				
 		  				//压力
 		  				String pressureStr=data2.substring(headPosition+30,headPosition+38);
 		  				byte[] pressureByte=publicMethod.HexStringToByteArray(pressureStr);
@@ -536,8 +515,8 @@ public class HydraulicMonitorNetworkTestTwoActivity extends Activity{
 		  			   tryCollectDataTV.setText(R.string.tryCollectDataOK);
 					}
 			  		//错误代码
-			  		else if (tailPosition-headPosition==28) {
-						String stateStr=data2.substring(headPosition+26,headPosition+28);
+			  		else if (tailPosition-headPosition==30) {
+						String stateStr=data2.substring(headPosition+28,headPosition+30);
 						if (stateStr!=null && stateStr.equals("01")) {//设备类型错误
 							
 						}

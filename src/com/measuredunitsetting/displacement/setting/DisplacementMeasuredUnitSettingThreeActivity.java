@@ -182,9 +182,7 @@ public class DisplacementMeasuredUnitSettingThreeActivity extends Activity {
 					lastLl.setBackgroundResource(R.xml.paddingbackgroundwhiteleft2dp);
 				}
 			}
-
 		}
-		
 		
 		//…Ë÷√∞¥≈•
 		confirmLl.setOnClickListener(new View.OnClickListener()

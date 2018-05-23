@@ -347,7 +347,7 @@ public class HydraulicMeasuredUnitTestActivity extends Activity {
 						return;
 					}
 		  			//参数上传
-			  		if (tailPosition-headPosition==62) {
+			  		if (tailPosition-headPosition==74) {
 				  		if(headPosition!=-1 && tailPosition!=-1)
 				  		{
 				  			LogUtil.i(TAG, "head and tail correct");
@@ -364,7 +364,7 @@ public class HydraulicMeasuredUnitTestActivity extends Activity {
 				  			measuredUnitId=new String(measuredUnitIdByte);
 				  		
 				  			//标定系数
-				  			String calibrationCoefStr=data2.substring(50+headPosition,66+headPosition);
+				  			String calibrationCoefStr=data2.substring(62+headPosition,70+headPosition);
 				  			byte[] calibrationCoefByte=publicMethod.HexStringToByteArray(calibrationCoefStr);
 				  			calibrationCoeff=publicMethod.byte2float(calibrationCoefByte, 0);
 				  			data2="";
@@ -439,9 +439,11 @@ public class HydraulicMeasuredUnitTestActivity extends Activity {
 		  				pressureTv.setText(pf+getResources().getString(R.string.mmwaterColumn));
 		  				//温度
 		  				String temperatureStr=data2.substring(headPosition+38,headPosition+46);
+						LogUtil.i(TAG, "temperature："+temperatureStr);
 		  				byte[] temperatureByte=publicMethod.HexStringToByteArray(temperatureStr);
 		  				float temperatureFloat=publicMethod.byte2float(temperatureByte, 0);
-		  				String tf=decimalFormat.format(pressureFloat);
+						LogUtil.i(TAG, "temperature1："+temperatureFloat);
+		  				String tf=decimalFormat.format(temperatureFloat);
 		  				temperatureTv.setText(tf+getResources().getString(R.string.degree));
 		  				//标定系数
 						String cc=decimalFormat.format(calibrationCoeff);
@@ -467,8 +469,8 @@ public class HydraulicMeasuredUnitTestActivity extends Activity {
 
 					}
 			  		//错误代码
-			  		else if (tailPosition-headPosition==28) {
-						String stateStr=data2.substring(headPosition+26,headPosition+28);
+			  		else if (tailPosition-headPosition==30) {
+						String stateStr=data2.substring(headPosition+28,headPosition+30);
 						if (stateStr!=null && stateStr.equals("01")) {//设备类型错误
 							waitDataBackOKTv.setText(R.string.waitDataBackTypeError);
 							IDTv.setText("");
@@ -510,15 +512,11 @@ public class HydraulicMeasuredUnitTestActivity extends Activity {
 			  		else {
 						data2="";
 					}
-			  	
 				}
-		  	
-		  	
 	  		}
 	  		catch(IndexOutOfBoundsException ex)
 	  		{
 	  			LogUtil.i(TAG,ex.toString());
-	  			
 	  		}
 	  		catch(Exception ex)
 	  		{
@@ -526,7 +524,6 @@ public class HydraulicMeasuredUnitTestActivity extends Activity {
 	  		}
     	}
     }
-    
     
     // Demonstrates how to iterate through the supported GATT Services/Characteristics.
     // In this sample, we populate the data structure that is bound to the ExpandableListView

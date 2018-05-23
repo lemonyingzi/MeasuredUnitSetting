@@ -158,7 +158,9 @@ public class BluetoothLeService extends Service {
 		return a;
 	}
 	////////////////////////////////////////////////液压水准///////////////////////////////
-	//发送查询指令
+	/**
+	 * 参数上传
+	 */
 	public void t_data_query_hydraulic()
 	{
 		try
@@ -206,7 +208,9 @@ public class BluetoothLeService extends Service {
 			LogUtil.d(TAG,ex.toString());
 		}
 	}
-	//发送查询指令
+	/**
+	 * 队列查询
+	 * */
 	public void t_data_query_queue_hydraulic()
 	{
 		try
@@ -254,7 +258,9 @@ public class BluetoothLeService extends Service {
 		}
 
 	}
-	//发送采集指令
+	/**
+	 * 数据采集
+	 * */
 	public void t_data_collect_hydraulic()
 	{
 		try
@@ -311,7 +317,7 @@ public class BluetoothLeService extends Service {
 		try
 		{
 			byte[] queryData=new byte[20];
-			queryData[0]=(byte) 0x2a;
+			queryData[0]=(byte) 0x28; //20150516修改
 			queryData[1]=0x00;
 
 			//头
@@ -333,17 +339,31 @@ public class BluetoothLeService extends Service {
 			//指令代码
 			queryData[13]=0x10;
 			queryData[14]=0x02;
-			//序号代码
-			byte[] serialNumCodeByte="0120".getBytes();
-			queryData[15]=serialNumCodeByte[0];
-			queryData[16]=serialNumCodeByte[1];
-			queryData[17]=serialNumCodeByte[2];
-			queryData[18]=serialNumCodeByte[3];
+//			//序号代码 20180516  修改，去除代码
+//			byte[] serialNumCodeByte="0120".getBytes();
+//			queryData[15]=serialNumCodeByte[0];
+//			queryData[16]=serialNumCodeByte[1];
+//			queryData[17]=serialNumCodeByte[2];
+//			queryData[18]=serialNumCodeByte[3];
 
 			byte[] serialNumData=unsigned_short_2byte(hydraulicMeasuredUnit.getSerialNumber());
 //			byte[] serialNumData=unsigned_short_2byte(1);
-			queryData[19]=serialNumData[0];
+			queryData[15]=serialNumData[0];
+			queryData[16]=serialNumData[1];
 
+			//测点类型数据
+			if (hydraulicMeasuredUnit.getMeasureType()!=null && hydraulicMeasuredUnit.getMeasureType().equals(getResources().getString(R.string.benchmark)))
+			{
+				queryData[17]=(byte) 0xA0;
+			}
+			else if (hydraulicMeasuredUnit.getMeasureType()!=null && hydraulicMeasuredUnit.getMeasureType().equals(getResources().getString(R.string.commonMeasurePoint)))
+			{
+				queryData[17]=(byte) 0xB0;
+			}
+			//测点编号数据
+			byte[] measurePointNumData=hydraulicMeasuredUnit.getMeasurePointNumber().getBytes();
+			queryData[18]=measurePointNumData[0];
+			queryData[19]=measurePointNumData[1];
 
 			PublicMethod publicMethod=new PublicMethod();
 			String ou=publicMethod.bytesToHexString(queryData);
@@ -355,54 +375,58 @@ public class BluetoothLeService extends Service {
 
 			byte[] queryDataTwo=new byte[20];
 			//序号数据
-
-			//测点类型代码
-			byte[] measureTypeCode="0111".getBytes();
-
-			queryDataTwo[0]=serialNumData[1];
-
-			queryDataTwo[1]=measureTypeCode[0];
-			queryDataTwo[2]=measureTypeCode[1];
-			queryDataTwo[3]=measureTypeCode[2];
-			queryDataTwo[4]=measureTypeCode[3];
-			//测点类型数据
-			if (hydraulicMeasuredUnit.getMeasureType()!=null && hydraulicMeasuredUnit.getMeasureType().equals(getResources().getString(R.string.benchmark)))
-			{
-				queryDataTwo[5]=(byte) 0xA0;
-			}
-			else if (hydraulicMeasuredUnit.getMeasureType()!=null && hydraulicMeasuredUnit.getMeasureType().equals(getResources().getString(R.string.commonMeasurePoint)))
-			{
-				queryDataTwo[5]=(byte) 0xB0;
-			}
-			//测点编号代码
-			byte[] measurePointNumByte="000B".getBytes();
-			queryDataTwo[6]=measurePointNumByte[0];
-			queryDataTwo[7]=measurePointNumByte[1];
-			queryDataTwo[8]=measurePointNumByte[2];
-			queryDataTwo[9]=measurePointNumByte[3];
+//			queryDataTwo[0]=serialNumData[1];
+//			//测点类型代码 20180516  修改，去除代码
+//			byte[] measureTypeCode="0111".getBytes();
+//			queryDataTwo[1]=measureTypeCode[0];
+//			queryDataTwo[2]=measureTypeCode[1];
+//			queryDataTwo[3]=measureTypeCode[2];
+//			queryDataTwo[4]=measureTypeCode[3];
+//			//测点类型数据
+//			if (hydraulicMeasuredUnit.getMeasureType()!=null && hydraulicMeasuredUnit.getMeasureType().equals(getResources().getString(R.string.benchmark)))
+//			{
+//				queryDataTwo[5]=(byte) 0xA0;
+//			}
+//			else if (hydraulicMeasuredUnit.getMeasureType()!=null && hydraulicMeasuredUnit.getMeasureType().equals(getResources().getString(R.string.commonMeasurePoint)))
+//			{
+//				queryDataTwo[5]=(byte) 0xB0;
+//			}
+//			//测点编号代码
+//			byte[] measurePointNumByte="000B".getBytes();
+//			queryDataTwo[6]=measurePointNumByte[0];
+//			queryDataTwo[7]=measurePointNumByte[1];
+//			queryDataTwo[8]=measurePointNumByte[2];
+//			queryDataTwo[9]=measurePointNumByte[3];
 			//测点编号数据
-
-
-			byte[] measurePointNumData=hydraulicMeasuredUnit.getMeasurePointNumber().getBytes();
+			//byte[] measurePointNumData=hydraulicMeasuredUnit.getMeasurePointNumber().getBytes();
 //		byte[] measurePointNumData="00000000".getBytes();
 
-			queryDataTwo[10]=measurePointNumData[0];
-			queryDataTwo[11]=measurePointNumData[1];
-			queryDataTwo[12]=measurePointNumData[2];
-			queryDataTwo[13]=measurePointNumData[3];
-			queryDataTwo[14]=measurePointNumData[4];
-			queryDataTwo[15]=measurePointNumData[5];
-			queryDataTwo[16]=measurePointNumData[6];
-			queryDataTwo[17]=measurePointNumData[7];
-
-			queryDataTwo[18]=0x4a;
-			queryDataTwo[19]=0x53;
+			queryDataTwo[0]=measurePointNumData[2];
+			queryDataTwo[1]=measurePointNumData[3];
+			queryDataTwo[2]=measurePointNumData[4];
+			queryDataTwo[3]=measurePointNumData[5];
+			queryDataTwo[4]=measurePointNumData[6];
+			queryDataTwo[5]=measurePointNumData[7];
+			byte[] measureUnitId=hydraulicMeasuredUnit.getMeasureUnitId().getBytes();
+			queryDataTwo[6]=measureUnitId[0];
+			queryDataTwo[7]=measureUnitId[1];
+			queryDataTwo[8]=measureUnitId[2];
+			queryDataTwo[9]=measureUnitId[3];
+			queryDataTwo[10]=measureUnitId[4];
+			queryDataTwo[11]=measureUnitId[5];
+			queryDataTwo[12]=measureUnitId[6];
+			queryDataTwo[13]=measureUnitId[7];
+			queryDataTwo[14]=measureUnitId[8];
+			queryDataTwo[15]=measureUnitId[9];
+			queryDataTwo[16]=0x4a;
+			queryDataTwo[17]=0x53;
+			queryDataTwo[18]=0x4b;
+			queryDataTwo[19]=0x46;
 
 			ou=publicMethod.bytesToHexString(queryDataTwo);
 
 			//延时
 			Thread.sleep(6);
-
 
 			LogUtil.i(TAG, "user setting:"+ou);
 			gg=mBluetoothGatt.getService(UUID.fromString(Service_uuid)).getCharacteristic(UUID.fromString(Characteristic_uuid_TX));
@@ -410,23 +434,23 @@ public class BluetoothLeService extends Service {
 			gg.setValue(queryDataTwo);
 			mBluetoothGatt.writeCharacteristic(gg);
 
-			byte[] queryDataThree=new byte[2];
-
-			//尾
-			queryDataThree[0]=0x4b;
-
-//		queryDataThree[0]=(byte) 0xfe;
-			queryDataThree[1]=0x46;
-
-
-			//延时
-			Thread.sleep(6);
-			ou=publicMethod.bytesToHexString(queryDataThree);
-			LogUtil.i(TAG, "user setting:"+ou);
-			gg=mBluetoothGatt.getService(UUID.fromString(Service_uuid)).getCharacteristic(UUID.fromString(Characteristic_uuid_TX));
-			//byte t[]={51,1,2};
-			gg.setValue(queryDataThree);
-			mBluetoothGatt.writeCharacteristic(gg);
+//			byte[] queryDataThree=new byte[2];
+//
+//			//尾
+//			queryDataThree[0]=0x4b;
+//
+////		queryDataThree[0]=(byte) 0xfe;
+//			queryDataThree[1]=0x46;
+//
+//
+//			//延时
+//			Thread.sleep(6);
+//			ou=publicMethod.bytesToHexString(queryDataThree);
+//			LogUtil.i(TAG, "user setting:"+ou);
+//			gg=mBluetoothGatt.getService(UUID.fromString(Service_uuid)).getCharacteristic(UUID.fromString(Characteristic_uuid_TX));
+//			//byte t[]={51,1,2};
+//			gg.setValue(queryDataThree);
+//			mBluetoothGatt.writeCharacteristic(gg);
 		}
 		catch(Exception ex)
 		{
@@ -435,6 +459,9 @@ public class BluetoothLeService extends Service {
 	}
 	
 	/////////////////////////////////////////深层水平位移///////////////////////////////////
+	/**
+	 * 队列上传
+	 * */
 	public void t_data_query_displacement()
 	{
 		try
@@ -481,8 +508,7 @@ public class BluetoothLeService extends Service {
 			LogUtil.i(TAG,ex.toString());
 		}
 	}
-	
-	
+
 	/**
 	 * 用户设定
 	 * @param
