@@ -369,8 +369,9 @@ public class DisplacementMeasuredUnitTestActivity extends Activity {
 			  		if (tailPosition==-1) {
 						return;
 					}
+					int diffPosition=tailPosition-headPosition;
 		  			//参数上传
-			  		if (tailPosition-headPosition==54) {
+			  		if (diffPosition==54||diffPosition==62) {
 			  			LogUtil.i(TAG, "头尾正确");
 			  			//序号
 		  				String serialNumberStr=data2.substring(headPosition+6,headPosition+10);
@@ -378,7 +379,12 @@ public class DisplacementMeasuredUnitTestActivity extends Activity {
 		  				int serialNumber=serialNumberByte[0]*255+serialNumberByte[1];
 			  			
 			  			//测量单元ID
-			  			String measuredUnitIdStr=data2.substring(34+headPosition,54+headPosition);
+						String measuredUnitIdStr="";
+						if (diffPosition==54 ) {
+							measuredUnitIdStr=data2.substring(34+headPosition,54+headPosition);
+						}
+						else
+							measuredUnitIdStr=data2.substring(42+headPosition,62+headPosition);
 			  			byte[] measuredUnitIdByte=publicMethod.HexStringToByteArray(measuredUnitIdStr);
 			  			measuredUnitId=new String(measuredUnitIdByte);
 			  		

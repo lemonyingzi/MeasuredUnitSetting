@@ -479,11 +479,16 @@ public class DisplacementMeasuredUnitSettingThreeActivity extends Activity {
 					}
 					int diffPosition=tailPosition-headPosition;
 		  			//参数上传 20180417修改、上行数据去除温度修正值，长度由70改成62
-			  		if (diffPosition==54) {
+			  		if (diffPosition==54||diffPosition==62) {
 				  		if(headPosition!=-1 && tailPosition!=-1)
 				  		{
 				  			//id
-				  			String measuredUnitIdStr=data2.substring(34+headPosition,54+headPosition);
+							String measuredUnitIdStr="";
+							if (diffPosition==54 ) {
+								measuredUnitIdStr=data2.substring(34+headPosition,54+headPosition);
+							}
+							else
+								measuredUnitIdStr=data2.substring(42+headPosition,62+headPosition);
 				  			byte[] measuredUnitIdByte=publicMethod.HexStringToByteArray(measuredUnitIdStr);
 				  			LogUtil.i(TAG, "measuredUnitIdStr:"+measuredUnitIdStr);
 				  			measuredUnitId=new String(measuredUnitIdByte);

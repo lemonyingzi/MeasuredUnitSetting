@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 23 14:20:29 CST 2018
+#Wed Jul 11 09:27:35 CST 2018
 0.baseType=DIRECTORY
 0.base=E\:\\lyProject\\MeasureUnitSettingProject\\MeasuredUnitSettingAS\\build\\intermediates\\transforms\\dex\\release\\0
 0.path=classes.dex
